@@ -254,6 +254,42 @@
 	list_reagents = list(/datum/reagent/consumable/mayonnaise = 50)
 	fill_icon_thresholds = null
 
+/obj/item/reagent_containers/food/condiment/ketchup
+	name = "ketchup"
+	desc = "You feel more American already."
+	icon_state = "ketchup"
+	list_reagents = list(/datum/reagent/consumable/ketchup = 50)
+
+/obj/item/reagent_containers/food/condiment/bbqsauce
+	name = "bbq sauce"
+	desc = "Hand wipes not included."
+	icon_state = "bbqsauce"
+	list_reagents = list(/datum/reagent/consumable/bbqsauce = 50)
+
+/obj/item/reagent_containers/food/condiment/hotsauce
+	name = "hot sauce"
+	desc = "You can almost TASTE the stomach ulcers!"
+	icon_state = "hotsauce"
+	list_reagents = list(/datum/reagent/consumable/capsaicin = 50)
+
+/obj/item/reagent_containers/food/condiment/coldsauce
+	name = "cold sauce"
+	desc = "Defies several laws, both legal and scientific."
+	icon_state = "coldsauce"
+	list_reagents = list(/datum/reagent/consumable/frostoil = 50)
+
+/obj/item/reagent_containers/food/condiment/mustard
+	name = "mustard"
+	desc = "Is it French? German? English? American? Who really knows? Who really cares?"
+	icon_state = "mustard"
+	list_reagents = list(/datum/reagent/consumable/mustard = 50)
+
+/obj/item/reagent_containers/food/condiment/cooking_oil
+	name = "cooking oil"
+	desc = "Sure, it looks tasty now, but imagine this coarsing through your veins. Nasty."
+	icon_state = "oliveoil"
+	list_reagents = list(/datum/reagent/consumable/cooking_oil = 50)
+
 //Food packs. To easily apply deadly toxi... delicious sauces to your food!
 
 /obj/item/reagent_containers/food/condiment/pack
@@ -278,6 +314,9 @@
 		/datum/reagent/consumable/sugar = list("condi_sugar", "Sugar", "Tasty spacey sugar!"),
 		/datum/reagent/consumable/astrotame = list("condi_astrotame", "Astrotame", "The sweetness of a thousand sugars but none of the calories."),
 		/datum/reagent/consumable/bbqsauce = list("condi_bbq", "BBQ sauce", "Hand wipes not included."),
+		/datum/reagent/consumable/mayonnaise = list("condi_mayo", "Mayonnaise", "An oily condiment made from egg yolks."),
+		/datum/reagent/consumable/mustard = list("condi_mustard", "Mustard", "Put it on a hot-dog.")
+		)
 	)
 	/// Can't use initial(name) for this. This stores the name set by condimasters.
 	var/originalname = "condiment"
@@ -354,3 +393,28 @@
 	name = "bbq sauce pack"
 	originalname = "bbq sauce"
 	list_reagents = list(/datum/reagent/consumable/bbqsauce = 10)
+
+/obj/item/reagent_containers/food/condiment/pack/salt
+	name = "salt pack"
+	originalname = "salt"
+	list_reagents = list(/datum/reagent/consumable/sodiumchloride = 10)
+
+/obj/item/reagent_containers/food/condiment/pack/pepper
+	name = "pepper pack"
+	originalname = "pepper"
+	list_reagents = list(/datum/reagent/consumable/blackpepper = 10)
+
+/obj/item/reagent_containers/food/condiment/pack/mayonnaise
+	name = "mayonnaise pack"
+	originalname = "mayonnaise"
+	list_reagents = list(/datum/reagent/consumable/mayonnaise = 10)
+
+/obj/item/reagent_containers/food/condiment/pack/mustard
+	name = "mustard pack"
+	originalname = "mustard"
+	list_reagents = list(/datum/reagent/consumable/mustard = 10)
+
+/obj/item/reagent_containers/food/condiment/pack/soysauce
+	name = "soy sauce pack"
+	originalname = "soy sauce"
+	list_reagents = list(/datum/reagent/consumable/soysauce = 10)

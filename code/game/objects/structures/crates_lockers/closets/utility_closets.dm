@@ -20,6 +20,12 @@
 /obj/structure/closet/emcloset/anchored
 	anchored = TRUE
 
+/obj/structure/closet/emcloset/winter
+	desc = "It's stocked with oxygen and warm jackets."
+
+/obj/structure/closet/emcloset/winter/anchored
+	anchored = TRUE
+
 /obj/structure/closet/emcloset/PopulateContents()
 	..()
 

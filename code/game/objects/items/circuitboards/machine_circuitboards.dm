@@ -1048,6 +1048,11 @@
 		/obj/item/stock_parts/cell/bluespace = 1,
 	)
 
+/obj/item/circuitboard/machine/chem_dispenser/drinks/diner
+	name = "Diner Soda Fountain (Machine Board)"
+	icon_state = "service"
+	build_path = /obj/machinery/chem_dispenser/drinks/diner
+
 /obj/item/circuitboard/machine/chem_dispenser/drinks/beer
 	name = "Booze Dispenser (Machine Board)"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE

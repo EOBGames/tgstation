@@ -33,3 +33,20 @@
 /obj/item/vending_refill/dinnerware
 	machine_name = "Plasteel Chef's Dinnerware Vendor"
 	icon_state = "refill_smoke"
+
+/obj/machinery/vending/dinnerware/public
+	name = "\improper Diner's Delight Dinnerware"
+	desc = "Dispenses everything you need to enjoy a good meal."
+	products = list(/obj/item/kitchen/fork/plastic = 10,
+					/obj/item/kitchen/knife/plastic = 10,
+					/obj/item/kitchen/spoon/plastic = 10,
+					/obj/item/reagent_containers/food/condiment/pack/salt = 10,
+					/obj/item/reagent_containers/food/condiment/pack/pepper = 10,
+					/obj/item/reagent_containers/food/condiment/pack/ketchup = 5,
+					/obj/item/reagent_containers/food/condiment/pack/hotsauce = 5,
+					/obj/item/reagent_containers/food/condiment/pack/astrotame = 5,
+					/obj/item/reagent_containers/food/condiment/pack/bbqsauce = 5,
+					/obj/item/reagent_containers/food/condiment/pack/mayonnaise = 5,
+					/obj/item/reagent_containers/food/condiment/pack/mustard = 5,
+					/obj/item/reagent_containers/food/condiment/pack/soysauce = 5)
+	contraband = null

@@ -58,6 +58,11 @@
 	id = "Station Relay"
 	autolinkers = list("s_relay")
 
+/obj/machinery/telecomms/relay/preset/station/tower
+	name = "telecomms relay tower"
+	icon = 'icons/obj/machines/comm_tower.dmi'
+	icon_state = "comm_tower"
+
 /obj/machinery/telecomms/relay/preset/telecomms
 	id = "Telecomms Relay"
 	autolinkers = list("relay")

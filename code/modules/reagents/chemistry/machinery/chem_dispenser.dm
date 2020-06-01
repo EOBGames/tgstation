@@ -518,6 +518,21 @@
 	flags_1 = NODECONSTRUCT_1
 	circuit = /obj/item/circuitboard/machine/chem_dispenser/drinks/fullupgrade
 
+/obj/machinery/chem_dispenser/drinks/diner
+	name = "diner soda fountain"
+	desc = "Has every type of soda a spessman could want."
+	circuit = /obj/item/circuitboard/machine/chem_dispenser/drinks/diner
+	dispensable_reagents = list(
+		/datum/reagent/consumable/ice,
+		/datum/reagent/consumable/icetea,
+		/datum/reagent/consumable/space_cola,
+		/datum/reagent/consumable/spacemountainwind,
+		/datum/reagent/consumable/dr_gibb,
+		/datum/reagent/consumable/space_up,
+		/datum/reagent/consumable/pwr_game,
+		/datum/reagent/consumable/shamblers
+	)
+	
 /obj/machinery/chem_dispenser/drinks/fullupgrade/Initialize()
 	. = ..()
 	dispensable_reagents |= emagged_reagents //adds emagged reagents

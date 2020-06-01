@@ -56,3 +56,7 @@
 	desc = "A direction sign, pointing out which way the station's AI Upload is."
 	icon_state = "direction_upload"
 
+/obj/structure/sign/directions/live
+	name = "on air sign"
+	desc = "Hey, quiet! You're on air!"
+	icon_state = "livesign"

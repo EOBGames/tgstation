@@ -635,4 +635,9 @@
 	// And yet people still believe...
 	icon_state = "poster37_legit"
 
+/obj/structure/sign/poster/official/radio
+	name = "1475 FM"
+	desc = "Tune in to 1475 FM, the station's only official listening experience!"
+	icon_state = "poster36_legit"
+
 #undef PLACE_SPEED

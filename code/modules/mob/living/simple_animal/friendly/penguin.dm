@@ -58,3 +58,11 @@
 	mob_size = MOB_SIZE_SMALL
 	butcher_results = list(/obj/item/organ/ears/penguin = 1, /obj/item/food/meat/slab/penguin = 1)
 
+/mob/living/simple_animal/pet/penguin/club
+	name = "Nostalgic Penguin"
+	desc = "It looks lost."
+	real_name = "penguin"
+	icon_state = "club_penguin"
+	icon_living = "club_penguin"
+	icon_dead = "club_penguin_dead"
+	speak = list("Have an ICE DAY!", "ICEY what you did there!", "CHILL out!", "Noot", "noot", "I'm feeling COOL today!", "Isn't this ICE!") //I make no apologies for my shitty puns.

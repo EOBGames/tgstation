@@ -102,7 +102,13 @@
 	icon = 'icons/obj/machines/telecomms.dmi'
 	icon_state = "processor"
 
-
+/obj/structure/showcase/chilled_tank
+	name = "broken down tank"
+	desc = "An old broken Terragov Marine Corps tank, bought by Nanotrasen to issue to security... once it was fixed up, anyway. With how frozen up it's gotten in storage, it's well past the point of simple repairs."
+	icon = 'icons/obj/chilled_tank.dmi'
+	icon_state = "tank_chilled"
+	bound_width = 128
+	bound_height = 96
 
 //Deconstructing
 //Showcases can be any sprite, so it makes sense that they can't be constructed.

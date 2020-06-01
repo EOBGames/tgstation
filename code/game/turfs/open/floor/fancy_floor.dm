@@ -441,3 +441,12 @@
 	underlay_appearance.icon_state = SPACE_ICON_STATE
 	underlay_appearance.plane = PLANE_SPACE
 	return TRUE
+
+/turf/open/floor/cobblestone
+	name = "cobblestone floor"
+	desc = "A simple but beautiful floor made of various sized stones."
+	icon_state = "cobble"
+	tiled_dirt = FALSE
+
+/turf/open/floor/cobblestone/side
+	icon_state = "cobbleside"

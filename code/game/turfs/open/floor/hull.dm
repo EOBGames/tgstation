@@ -17,3 +17,13 @@
 	desc = "Extremely sturdy exterior hull plating that separates you from the uncaring vacuum of space."
 	icon_state = "reinforced_hull"
 	heat_capacity = INFINITY
+
+/turf/open/floor/engine/hull/concrete
+	name = "concrete floor"
+	desc = "Several inches of solid grey indestructibility."
+	icon_state = "concrete"
+
+/turf/open/floor/engine/hull/concrete/asphalt
+	name = "asphalt road"
+	desc = "500 years of progress and we're still using dead dinosaurs for roads. Some things just never change, I guess."
+	icon_state = "asphalt"

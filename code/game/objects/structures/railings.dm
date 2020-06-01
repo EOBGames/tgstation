@@ -15,6 +15,25 @@
 	density = FALSE
 	climbable = FALSE
 
+/obj/structure/railing/platform
+	name = "platform edge"
+	desc = "Keeps the outpost above the snow."
+	icon = 'icons/obj/platforms.dmi'
+	icon_state = "platform"
+	density = TRUE
+	anchored = TRUE
+	climbable = TRUE
+
+/obj/structure/railing/platform/corner
+	icon_state = "platform_deco"
+	density = FALSE
+	climbable = FALSE
+
+/obj/structure/railing/ComponentInitialize()
+	. = ..()
+	AddComponent(/datum/component/simple_rotation,ROTATION_ALTCLICK | ROTATION_CLOCKWISE | ROTATION_COUNTERCLOCKWISE | ROTATION_VERBS ,null,CALLBACK(src, .proc/can_be_rotated),CALLBACK(src,.proc/after_rotation))
+
+
 /obj/structure/railing/Initialize()
 	. = ..()
 	ini_dir = dir
