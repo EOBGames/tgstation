@@ -315,7 +315,7 @@
 		/datum/reagent/consumable/astrotame = list("condi_astrotame", "Astrotame", "The sweetness of a thousand sugars but none of the calories."),
 		/datum/reagent/consumable/bbqsauce = list("condi_bbq", "BBQ sauce", "Hand wipes not included."),
 		/datum/reagent/consumable/mayonnaise = list("condi_mayo", "Mayonnaise", "An oily condiment made from egg yolks."),
-		/datum/reagent/consumable/mustard = list("condi_mustard", "Mustard", "Put it on a hot-dog.")
+		/datum/reagent/consumable/mustard = list("condi_mustard", "Mustard", "Is it French? German? English? American? Who really knows? Who really cares?")
 		)
 	)
 	/// Can't use initial(name) for this. This stores the name set by condimasters.
