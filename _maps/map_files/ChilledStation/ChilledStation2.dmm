@@ -62,6 +62,11 @@
 /obj/structure/cable,
 /turf/open/floor/plating/snowed/icemoon,
 /area/space)
+"av" = (
+/obj/item/storage/fancy/cigarettes/cigars/havana,
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "aw" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -645,6 +650,9 @@
 	},
 /obj/effect/turf_decal/roadmarkings,
 /turf/open/floor/vault,
+/area/space)
+"cU" = (
+/turf/open/floor/carpet/blue,
 /area/space)
 "cV" = (
 /obj/effect/turf_decal/weather/snow/corner,
@@ -1920,6 +1928,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/vacant_room/office)
+"hM" = (
+/obj/item/folder/blue,
+/obj/item/pen/fountain/captain,
+/obj/item/stamp/captain,
+/obj/machinery/door/window/brigdoor/northleft{
+	name = "Captain's Desk";
+	req_access_txt = "20"
+	},
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "hN" = (
 /obj/structure/chair{
 	dir = 1
@@ -2739,11 +2758,8 @@
 /turf/open/floor/plasteel/dark,
 /area/security/detectives_office/private_investigators_office)
 "kJ" = (
-/obj/machinery/door/airlock/command/glass{
-	name = "Bridge Access";
-	req_access_txt = "19"
-	},
-/turf/open/floor/plasteel/dark,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
 /area/library)
 "kL" = (
 /turf/closed/wall/r_wall,
@@ -2900,8 +2916,12 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
 "ls" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plasteel,
+/obj/machinery/door/airlock/command/glass{
+	name = "Bridge Access";
+	req_access_txt = "19"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plasteel/dark,
 /area/space)
 "lt" = (
 /obj/effect/turf_decal/weather/snow/corner{
@@ -3352,6 +3372,14 @@
 /obj/effect/turf_decal/trimline/neutral/filled/corner,
 /turf/open/floor/plasteel/dark,
 /area/lawoffice)
+"nF" = (
+/obj/machinery/computer/security/wooden_tv,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "nG" = (
 /obj/effect/turf_decal/trimline/green/filled/corner{
 	dir = 1
@@ -3532,6 +3560,13 @@
 	dir = 4
 	},
 /turf/open/floor/vault,
+/area/space)
+"ot" = (
+/obj/machinery/door/window/brigdoor/northleft{
+	name = "Captain's Desk";
+	req_access_txt = "20"
+	},
+/turf/open/floor/plasteel/dark,
 /area/space)
 "ou" = (
 /obj/machinery/vending/wardrobe/curator_wardrobe,
@@ -5117,6 +5152,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/brig/upper)
+"uK" = (
+/obj/item/storage/photo_album,
+/obj/item/camera,
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "uL" = (
 /obj/structure/chair/comfy/black,
 /turf/open/floor/carpet/royalblue,
@@ -5291,6 +5332,11 @@
 /obj/machinery/holopad/secure,
 /turf/open/floor/plasteel/dark,
 /area/security/main)
+"vH" = (
+/obj/structure/bed/dogbed/renault,
+/mob/living/simple_animal/pet/fox/Renault,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "vJ" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 4
@@ -6183,6 +6229,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/library)
+"zx" = (
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "zy" = (
 /obj/structure/sink/kitchen{
 	dir = 8;
@@ -6478,6 +6528,14 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/warden)
+"AA" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Bridge Access";
+	req_access_txt = "19"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plasteel/dark,
+/area/library)
 "AB" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -7242,10 +7300,6 @@
 	},
 /turf/open/floor/vault,
 /area/space)
-"DZ" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plasteel,
-/area/library)
 "Ea" = (
 /obj/machinery/door/airlock/command{
 	name = "Corporate Boardroom";
@@ -8231,6 +8285,12 @@
 /obj/structure/railing,
 /obj/effect/turf_decal/roadmarkings/thick,
 /turf/open/floor/vault,
+/area/space)
+"Ib" = (
+/obj/structure/chair/sofa/right{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/space)
 "Id" = (
 /obj/item/pickaxe,
@@ -9228,6 +9288,9 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/brig/upper)
+"LS" = (
+/turf/open/floor/plasteel/white,
+/area/space)
 "LU" = (
 /obj/effect/turf_decal/roadmarkings{
 	dir = 4
@@ -9625,6 +9688,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/janitor)
+"NF" = (
+/obj/structure/bed/pod,
+/turf/open/floor/carpet/blue,
+/area/space)
 "NH" = (
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/floor/pod,
@@ -9754,6 +9821,12 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/vault,
+/area/space)
+"Og" = (
+/obj/machinery/computer/communications{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/space)
 "Ol" = (
 /obj/structure/rack,
@@ -10156,6 +10229,16 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
+"PH" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Bridge Access";
+	req_access_txt = "19"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
 "PK" = (
 /obj/structure/chair/sofa{
 	color = "#c45c57";
@@ -10946,10 +11029,28 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/entry)
+"Su" = (
+/obj/structure/piano{
+	icon_state = "piano";
+	name = "antique Arteshauser piano"
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
 "Sw" = (
 /obj/machinery/disposal/bin,
 /turf/open/floor/plasteel/dark,
 /area/security/checkpoint/customs)
+"Sx" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "bridgedoors";
+	name = "Bridge Access Blast door"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
 "Sz" = (
 /obj/structure/chair/comfy/shuttle{
 	name = "tactical chair"
@@ -11177,6 +11278,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/brig/upper)
+"Tx" = (
+/obj/machinery/computer/card{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
 "TB" = (
 /obj/machinery/holopad,
 /obj/effect/turf_decal/box/white{
@@ -11371,6 +11478,21 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
+/area/space)
+"Um" = (
+/obj/item/paper_bin{
+	pixel_x = 3;
+	pixel_y = 6
+	},
+/obj/item/phone{
+	pixel_x = -10;
+	pixel_y = 5
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/dark,
 /area/space)
 "Un" = (
 /obj/machinery/disposal/bin,
@@ -11611,6 +11733,12 @@
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/plasteel/dark,
 /area/security/courtroom)
+"Vm" = (
+/obj/structure/chair/sofa/left{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
 "Vp" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -12768,6 +12896,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/space)
+"Zp" = (
+/obj/machinery/recharger,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "Zq" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -12858,6 +12994,13 @@
 "ZF" = (
 /obj/effect/spawner/structure/window/ice,
 /turf/open/floor/plating,
+/area/space)
+"ZG" = (
+/obj/machinery/door/airlock/command{
+	name = "Captain's Office";
+	req_access_txt = "20"
+	},
+/turf/open/floor/plasteel/dark,
 /area/space)
 "ZH" = (
 /obj/item/tank/internals/oxygen,
@@ -108188,11 +108331,11 @@ nP
 nP
 nP
 nP
-nP
-Ld
-Ei
-Ei
-Ei
+CE
+Mh
+Mh
+Mh
+Mh
 Ei
 Ei
 Ei
@@ -108445,11 +108588,11 @@ nP
 nP
 nP
 nP
-CE
-Mh
-Mh
-Mh
-Mh
+AA
+Sx
+DR
+DR
+PH
 nY
 nY
 nY
@@ -108703,10 +108846,10 @@ nP
 nP
 BA
 kJ
+Sx
 DR
-nY
-nY
-sQ
+DR
+wc
 nY
 nY
 nY
@@ -108959,11 +109102,11 @@ YU
 nP
 nP
 BA
-DZ
+AA
+Sx
 DR
-nY
-nY
-ls
+DR
+PH
 nY
 nY
 nY
@@ -109216,12 +109359,12 @@ mN
 kx
 kx
 Wm
-sQ
+Mh
+Mh
 DR
-nY
-nY
-sQ
-nY
+Mh
+Mh
+Mh
 nY
 nY
 nY
@@ -109474,17 +109617,17 @@ JC
 Wm
 Mh
 Mh
+DR
+DR
+DR
+DR
 Mh
-nY
 Mh
 Mh
-nY
-nY
-nY
-nY
-nY
-nY
-nY
+Mh
+Mh
+Mh
+Mh
 nY
 nY
 Ei
@@ -109730,18 +109873,18 @@ mN
 Zt
 vL
 Mh
-DR
 CM
 DR
 DR
+DR
+Eu
 Mh
-nY
-nY
-nY
-nY
-nY
-nY
-nY
+LS
+LS
+cU
+cU
+cU
+Mh
 nY
 nY
 Ei
@@ -109986,19 +110129,19 @@ VC
 mN
 Zt
 kx
-ls
+wc
 DR
 DR
 DR
 DR
+Eu
 Mh
 Mh
 Mh
-nY
-nY
-nY
-nY
-nY
+cU
+cU
+cU
+Mh
 nY
 nY
 Ei
@@ -110243,7 +110386,8 @@ FM
 nG
 Zt
 kx
-ls
+wc
+DR
 DR
 DR
 DR
@@ -110251,11 +110395,10 @@ DR
 DR
 DR
 Mh
-nY
-nY
-nY
-nY
-nY
+cU
+cU
+cU
+Mh
 nY
 nY
 Ei
@@ -110500,7 +110643,8 @@ nG
 kx
 Zt
 kx
-ls
+wc
+DR
 DR
 DR
 nX
@@ -110508,11 +110652,10 @@ Eu
 DR
 DR
 sQ
-nY
-nY
-nY
-nY
-nY
+cU
+cU
+cU
+Mh
 nY
 nY
 Ei
@@ -110760,16 +110903,16 @@ kx
 bI
 bo
 DR
+DR
 nX
 Eu
 bo
 DR
 Mh
-nY
-nY
-nY
-nY
-nY
+cU
+cU
+cU
+Mh
 nY
 nY
 Ei
@@ -111017,16 +111160,16 @@ kx
 Mh
 Uz
 DR
+DR
 my
 Eu
 MQ
 we
 Mh
-nY
-nY
-nY
-nY
-nY
+cU
+NF
+cU
+Mh
 nY
 nY
 Ei
@@ -111279,11 +111422,11 @@ Mh
 Mh
 Mh
 Mh
-nY
-nY
-nY
-nY
-nY
+Mh
+Mh
+Mh
+Mh
+Mh
 nY
 nY
 Ei
@@ -111529,14 +111672,14 @@ kx
 kx
 TS
 Mh
+Su
+vH
 DR
-DR
-DR
-DR
-DR
-DR
+my
+nF
+Tx
+Og
 Mh
-nY
 nY
 nY
 nY
@@ -111785,15 +111928,15 @@ kx
 kx
 kx
 TS
-ls
+wc
+XM
 DR
 DR
-DR
-DR
-DR
+nX
+hM
+bo
 DR
 Mh
-nY
 nY
 nY
 nY
@@ -112042,15 +112185,15 @@ xn
 kx
 kx
 TS
-ls
+wc
+JM
+Ib
 DR
-DR
-DR
-DR
+nX
+Um
 DR
 DR
 sQ
-nY
 nY
 nY
 nY
@@ -112299,15 +112442,15 @@ Hk
 xn
 kx
 TS
-ls
+wc
+av
+zx
 DR
 DR
-DR
-DR
+ot
 DR
 DR
 Mh
-nY
 nY
 nY
 nY
@@ -112556,16 +112699,16 @@ VC
 mN
 kx
 TS
-ls
+wc
+mT
+Vm
 DR
 DR
-nY
-nY
+Zp
 Mh
 Mh
 Mh
-nY
-nY
+Mh
 nY
 nY
 nY
@@ -112816,12 +112959,12 @@ TS
 Mh
 DR
 DR
-nY
-nY
+DR
+DR
+uK
 Mh
-nY
-nY
-nY
+LS
+LS
 nY
 nY
 nY
@@ -113072,14 +113215,14 @@ kx
 TS
 Mh
 Mh
+DR
+DR
+DR
+DR
 Mh
-nY
+LS
+LS
 Mh
-Mh
-nY
-nY
-nY
-nY
 nY
 nY
 nY
@@ -113328,18 +113471,18 @@ mN
 kx
 kx
 kj
-sQ
-DR
-nY
-nY
-nY
-nY
-nY
-nY
-nY
-nY
-nY
-nY
+Mh
+Mh
+ZG
+Mh
+Mh
+Mh
+Mh
+Mh
+Mh
+Mh
+Mh
+Mh
 nY
 nY
 Ei
@@ -113586,10 +113729,10 @@ kx
 kx
 TS
 ls
+Sx
 DR
-nY
-nY
-nY
+DR
+PH
 nY
 nY
 nY
@@ -113842,11 +113985,11 @@ kx
 kx
 kx
 TS
-sQ
+wc
+Sx
 DR
-nY
-nY
-nY
+DR
+wc
 nY
 nY
 nY
@@ -114099,11 +114242,11 @@ kx
 kx
 kx
 kx
-Ld
-Ld
-nY
-nY
-nY
+ls
+Sx
+DR
+DR
+PH
 nY
 nY
 nY
@@ -114356,11 +114499,11 @@ nY
 nY
 nY
 nY
-nY
-nY
-nY
-nY
-nY
+Mh
+Mh
+Mh
+Mh
+Mh
 nY
 nY
 nY
