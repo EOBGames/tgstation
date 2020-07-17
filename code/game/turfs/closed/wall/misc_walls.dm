@@ -74,6 +74,12 @@
 	slicing_duration = 150 //welding through the ice+metal
 	bullet_sizzle = TRUE
 
+/turf/closed/wall/r_wall/ice
+	icon = 'icons/turf/walls/icedreinforced_wall.dmi'
+	desc = "A huge chunk of metal covered in a thick sheet of ice."
+	slicing_duration = 150
+	bullet_sizzle = TRUE
+
 /turf/closed/wall/rust
 	name = "rusted wall"
 	desc = "A rusted metal wall."
