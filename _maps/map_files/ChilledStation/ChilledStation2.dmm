@@ -87,12 +87,11 @@
 /turf/open/floor/plasteel/dark,
 /area/engine/atmos)
 "aao" = (
-/obj/machinery/mineral/stacking_machine/laborstacker{
-	input_dir = 2;
-	output_dir = 1
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
 	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/airless/dark,
 /area/space)
 "aap" = (
 /obj/item/kirbyplants{
@@ -264,8 +263,12 @@
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/entry)
 "aaV" = (
-/obj/structure/toilet{
-	dir = 4
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -12
+	},
+/obj/structure/mirror{
+	pixel_x = -28
 	},
 /turf/open/floor/plasteel/white,
 /area/space)
@@ -458,17 +461,25 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/bar/atrium)
 "abu" = (
-/obj/structure/chair/office{
+/obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"abv" = (
-/obj/structure/railing/platform{
+/obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
-/turf/open/space/basic,
+/turf/open/floor/plasteel/airless/dark,
 /area/space)
+"abv" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 1
+	},
+/obj/structure/noticeboard{
+	desc = "A board for pinning important notices upon. Probably helpful for keeping track of requests.";
+	name = "requests board";
+	pixel_y = 28
+	},
+/turf/open/floor/plasteel/dark,
+/area/security/brig)
 "abw" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -563,15 +574,10 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "abJ" = (
-/obj/machinery/mineral/labor_claim_console{
-	machinedir = 1;
-	pixel_x = 30
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
+/obj/effect/turf_decal/weather/snow/corner{
 	dir = 5
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/pod,
 /area/space)
 "abK" = (
 /obj/structure/table/glass,
@@ -638,11 +644,26 @@
 /turf/open/floor/plating,
 /area/medical/psychology)
 "abV" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
 	},
-/turf/open/floor/plasteel,
-/area/space)
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/structure/table/wood/fancy,
+/obj/structure/sign/painting/library_secure{
+	pixel_x = -32
+	},
+/obj/item/toy/plush/lizardplushie{
+	name = "Lives-In-Luxury";
+	pixel_y = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/library/artgallery)
 "abW" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -650,7 +671,12 @@
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
 "abX" = (
-/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/plaque{
+	icon_state = "L1"
+	},
+/obj/effect/turf_decal/trimline/green/filled/corner{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/space)
 "abY" = (
@@ -939,7 +965,9 @@
 /turf/open/floor/plasteel/dark,
 /area/engine/atmospherics_engine)
 "acK" = (
-/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/plaque{
+	icon_state = "L3"
+	},
 /turf/open/floor/plasteel,
 /area/space)
 "acL" = (
@@ -1292,20 +1320,10 @@
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/central)
 "adG" = (
-/obj/machinery/computer/prisoner/gulag_teleporter_computer{
-	dir = 1
+/obj/effect/turf_decal/plaque{
+	icon_state = "L5"
 	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/space)
 "adH" = (
 /obj/effect/turf_decal/trimline/red/filled/corner,
@@ -1775,12 +1793,10 @@
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "aeT" = (
-/obj/machinery/mineral/stacking_unit_console{
-	machinedir = 2;
-	pixel_x = 30;
-	pixel_y = 30
+/obj/effect/turf_decal/plaque{
+	icon_state = "L7"
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/plasteel,
 /area/space)
 "aeU" = (
 /obj/machinery/computer/security{
@@ -2005,15 +2021,8 @@
 /turf/open/floor/plasteel/dark,
 /area/engine/atmospherics_engine)
 "afw" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
-/obj/machinery/flasher{
-	id = "gulagshuttleflasher";
-	pixel_x = 25
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 6
+/obj/effect/turf_decal/plaque{
+	icon_state = "L9"
 	},
 /turf/open/floor/plasteel,
 /area/space)
@@ -2725,26 +2734,10 @@
 /turf/open/floor/plasteel/dark,
 /area/maintenance/disposal/incinerator)
 "ahp" = (
-/obj/machinery/door/airlock/shuttle{
-	id_tag = "prisonshuttle";
-	name = "Labor Shuttle Airlock"
+/obj/effect/turf_decal/plaque{
+	icon_state = "L11"
 	},
-/obj/docking_port/mobile{
-	dir = 8;
-	dwidth = 2;
-	height = 5;
-	id = "laborcamp";
-	name = "labor camp shuttle";
-	port_direction = 4;
-	width = 9
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel,
 /area/space)
 "ahr" = (
 /obj/machinery/door/window/brigdoor/security/cell{
@@ -2953,10 +2946,11 @@
 /area/security/main)
 "ahT" = (
 /obj/machinery/door/window/brigdoor/westright{
+	dir = 1;
 	name = "shower"
 	},
 /obj/structure/window/reinforced{
-	dir = 1;
+	dir = 8;
 	pixel_y = 1
 	},
 /obj/machinery/shower{
@@ -3190,9 +3184,13 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "aiB" = (
-/obj/structure/shuttle/engine/propulsion,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
+/obj/effect/turf_decal/plaque{
+	icon_state = "L13"
+	},
+/obj/effect/turf_decal/trimline/green/filled/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
 /area/space)
 "aiD" = (
 /obj/effect/turf_decal/tile/red{
@@ -3490,8 +3488,9 @@
 /turf/open/floor/plasteel/dark,
 /area/security/brig/upper)
 "ajm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/plaque{
+	icon_state = "L2"
+	},
 /turf/open/floor/plasteel,
 /area/space)
 "ajn" = (
@@ -3642,14 +3641,18 @@
 /turf/open/floor/carpet/royalblue,
 /area/crew_quarters/heads/captain)
 "ajE" = (
-/obj/machinery/door/airlock/external{
-	name = "Labor Camp Shuttle Airlock"
+/obj/effect/turf_decal/plaque{
+	icon_state = "L4"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/space)
 "ajF" = (
-/obj/structure/toilet{
-	dir = 8
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 11
 	},
 /turf/open/floor/plasteel/white,
 /area/crew_quarters/heads/captain/private)
@@ -3694,13 +3697,10 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "ajM" = (
-/obj/structure/chair{
-	dir = 8
+/obj/effect/turf_decal/plaque{
+	icon_state = "L6"
 	},
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/space)
 "ajN" = (
 /obj/machinery/computer/security{
@@ -3910,10 +3910,10 @@
 /turf/open/floor/engine/co2,
 /area/engine/atmos)
 "akl" = (
-/obj/effect/turf_decal/trimline/red/filled/corner{
-	dir = 8
+/obj/effect/turf_decal/plaque{
+	icon_state = "L8"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/space)
 "akm" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -4496,7 +4496,10 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "alN" = (
-/turf/closed/wall/mineral/titanium,
+/obj/effect/turf_decal/plaque{
+	icon_state = "L10"
+	},
+/turf/open/floor/plasteel,
 /area/space)
 "alO" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
@@ -4591,11 +4594,10 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "ame" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 5
+/obj/effect/turf_decal/plaque{
+	icon_state = "L12"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/space)
 "amf" = (
 /obj/effect/turf_decal/trimline/red/filled/warning,
@@ -5231,8 +5233,10 @@
 /turf/open/floor/plasteel,
 /area/hydroponics)
 "anX" = (
-/obj/structure/chair/office,
-/turf/open/floor/plasteel/dark,
+/obj/effect/turf_decal/plaque{
+	icon_state = "L14"
+	},
+/turf/open/floor/plasteel,
 /area/space)
 "anY" = (
 /turf/open/space/basic,
@@ -5388,12 +5392,12 @@
 /turf/open/floor/plasteel/dark,
 /area/library)
 "aov" = (
-/obj/machinery/door/airlock/security/glass{
-	name = "Long-Term Cell 2";
-	req_access_txt = "2"
+/obj/structure/chair/comfy/black,
+/obj/structure/sign/painting/library_private{
+	pixel_y = 32
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/crew_quarters/heads/captain)
 "aox" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 4
@@ -5653,10 +5657,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
-"ape" = (
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/space)
 "apg" = (
 /obj/structure/table,
 /obj/item/storage/box/cups{
@@ -6912,19 +6912,6 @@
 /obj/structure/fence,
 /turf/open/floor/grass,
 /area/hydroponics)
-"asC" = (
-/obj/machinery/door/airlock/shuttle{
-	name = "Labor Shuttle Airlock";
-	req_access_txt = "2"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/space)
 "asD" = (
 /obj/machinery/atmospherics/pipe/simple/brown/visible{
 	dir = 4
@@ -6959,13 +6946,6 @@
 /obj/structure/noticeboard{
 	dir = 4;
 	pixel_x = -27
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
-"asH" = (
-/obj/machinery/door/airlock/security/glass{
-	name = "Guard Access";
-	req_access_txt = "1"
 	},
 /turf/open/floor/plasteel/dark,
 /area/space)
@@ -7237,12 +7217,8 @@
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hop)
 "ats" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = -12
-	},
-/obj/structure/mirror{
-	pixel_x = -28
+/obj/structure/toilet{
+	dir = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/crew_quarters/heads/captain/private)
@@ -7382,12 +7358,6 @@
 /area/security/brig/upper)
 "atI" = (
 /turf/closed/wall/ice,
-/area/space)
-"atJ" = (
-/obj/machinery/door/airlock/large/security/warden/glass{
-	name = "Permanent Incarceration Unit"
-	},
-/turf/open/floor/plasteel/dark,
 /area/space)
 "atK" = (
 /obj/machinery/computer/secure_data{
@@ -7711,13 +7681,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/atmospherics_engine)
-"auB" = (
-/obj/machinery/door/airlock/external{
-	name = "Labor Camp Shuttle Airlock";
-	req_access_txt = "63"
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "auC" = (
 /turf/open/floor/engine,
 /area/engine/supermatter)
@@ -7871,10 +7834,6 @@
 /area/space)
 "ava" = (
 /turf/open/floor/eighties,
-/area/space)
-"avb" = (
-/obj/structure/closet/secure_closet/security/sec,
-/turf/open/floor/plasteel/dark,
 /area/space)
 "avc" = (
 /obj/item/stack/tile/plasteel{
@@ -8260,18 +8219,6 @@
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/engine/n2,
 /area/engine/atmos)
-"awf" = (
-/obj/machinery/computer/secure_data{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
-"awg" = (
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 9
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "awh" = (
 /obj/structure/table,
 /turf/open/floor/plating,
@@ -8386,13 +8333,6 @@
 /area/hydroponics)
 "awy" = (
 /obj/structure/railing/platform,
-/turf/open/floor/plating/asteroid/snow/icemoon,
-/area/space)
-"awB" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 6
-	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/space)
 "awC" = (
@@ -9038,12 +8978,6 @@
 	},
 /turf/open/floor/plating,
 /area/space)
-"ayj" = (
-/obj/item/folder/red,
-/obj/item/restraints/handcuffs,
-/obj/structure/table/reinforced,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
 "ayk" = (
 /obj/effect/turf_decal/roadmarkings/thick{
 	dir = 8
@@ -9415,13 +9349,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/space)
-"azn" = (
-/obj/structure/chair/office,
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 10
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "azo" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 5
@@ -9434,9 +9361,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/eighties,
-/area/space)
-"azq" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/space)
 "azr" = (
 /obj/structure/bed/dogbed/ian,
@@ -9747,20 +9671,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/warden)
-"aAe" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aAf" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/captain,
@@ -9942,14 +9852,16 @@
 /turf/open/floor/plasteel,
 /area/security/brig)
 "aAC" = (
-/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /obj/structure/curtain,
 /obj/machinery/shower{
 	pixel_y = 16
 	},
 /obj/item/soap/deluxe,
 /obj/machinery/door/window/brigdoor/westleft{
-	dir = 4;
+	dir = 2;
 	name = "Shower"
 	},
 /turf/open/floor/plasteel/white,
@@ -9972,13 +9884,6 @@
 /obj/structure/window/reinforced,
 /turf/open/floor/plasteel/dark,
 /area/engine/atmos)
-"aAG" = (
-/obj/structure/chair,
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aAH" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
@@ -10642,16 +10547,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
-"aCs" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/space)
 "aCt" = (
 /obj/structure/closet,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey,
@@ -10984,20 +10879,6 @@
 "aDz" = (
 /turf/open/floor/grass,
 /area/hydroponics)
-"aDA" = (
-/obj/item/kirbyplants/random,
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aDB" = (
 /obj/machinery/atmospherics/components/trinary/filter/atmos/o2{
 	dir = 8
@@ -11679,12 +11560,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
-"aFs" = (
-/obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 8
-	},
-/turf/open/floor/pod,
-/area/space)
 "aFt" = (
 /obj/structure/table,
 /obj/item/radio{
@@ -11789,22 +11664,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
-"aFE" = (
-/obj/machinery/computer/security/labor{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aFF" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -12190,12 +12049,6 @@
 	},
 /turf/open/floor/plating/snowed/icemoon,
 /area/space)
-"aGK" = (
-/obj/structure/grille,
-/obj/structure/cable,
-/obj/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/space)
 "aGL" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
@@ -12365,13 +12218,6 @@
 /obj/structure/sign/warning/securearea,
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/space)
-"aHf" = (
-/obj/machinery/door/airlock/security/glass{
-	name = "Prisoner Handling";
-	req_access_txt = "1"
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aHg" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/corner{
@@ -12473,15 +12319,6 @@
 "aHs" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/disposal/incinerator)
-"aHt" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
-	},
-/turf/open/floor/plasteel,
-/area/space)
 "aHu" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -12491,12 +12328,6 @@
 "aHv" = (
 /obj/effect/turf_decal/trimline/green/filled/corner,
 /turf/open/floor/plasteel,
-/area/space)
-"aHw" = (
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 6
-	},
-/turf/open/floor/plasteel/dark,
 /area/space)
 "aHy" = (
 /obj/structure/cable,
@@ -12703,22 +12534,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/lawoffice)
-"aIh" = (
-/obj/machinery/computer/shuttle/labor{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aIi" = (
 /obj/structure/chair/sofa/left{
 	dir = 1
@@ -15058,12 +14873,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/security/checkpoint/customs)
-"aOq" = (
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aOr" = (
 /obj/machinery/disposal/bin,
 /turf/open/floor/plasteel/dark,
@@ -15398,12 +15207,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engine/atmos)
-"aPp" = (
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aPr" = (
 /obj/structure/fence/corner{
 	dir = 1
@@ -15970,13 +15773,6 @@
 /obj/machinery/pipedispenser,
 /turf/open/floor/plasteel,
 /area/engine/atmos)
-"aQH" = (
-/obj/machinery/door/airlock/security/glass{
-	name = "Prison Office";
-	req_access_txt = "63"
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aQI" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-06";
@@ -16050,12 +15846,6 @@
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
-"aQS" = (
-/obj/effect/turf_decal/caution/stand_clear{
-	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/space)
@@ -16222,9 +16012,6 @@
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
-"aRr" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
 "aRs" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 9
@@ -16616,10 +16403,6 @@
 	},
 /turf/open/floor/plating/ice/icemoon,
 /area/space)
-"aSp" = (
-/obj/structure/stairs/south,
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aSq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/mix_output{
 	dir = 4
@@ -16700,16 +16483,6 @@
 /obj/effect/landmark/start/warden,
 /turf/open/floor/plasteel/dark,
 /area/security/warden)
-"aSA" = (
-/obj/machinery/button/flasher{
-	id = "gulagshuttleflasher";
-	name = "Flash Control";
-	pixel_y = -26;
-	req_access_txt = "1"
-	},
-/obj/machinery/light,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
 "aSB" = (
 /obj/machinery/atmospherics/pipe/simple/brown/visible{
 	dir = 10
@@ -16791,12 +16564,8 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aSN" = (
-/obj/structure/mirror{
-	pixel_x = 28
-	},
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = 11
+/obj/structure/toilet{
+	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/space)
@@ -17712,14 +17481,6 @@
 "aVh" = (
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/ai_upload)
-"aVj" = (
-/obj/machinery/door/airlock/shuttle{
-	name = "Labor Shuttle Airlock";
-	req_access_txt = "2"
-	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plasteel/white,
-/area/space)
 "aVk" = (
 /obj/structure/fence{
 	dir = 4
@@ -17783,6 +17544,12 @@
 "aVr" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/security/wooden_tv,
+/obj/structure/noticeboard{
+	desc = "A board for pinning important notices upon. Probably helpful for keeping track of requests.";
+	dir = 4;
+	name = "requests board";
+	pixel_x = -28
+	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/captain/private)
 "aVs" = (
@@ -17900,20 +17667,6 @@
 /obj/item/storage/cans/sixbeer,
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
-"aVM" = (
-/obj/machinery/gulag_teleporter,
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
 /area/space)
@@ -18105,13 +17858,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/brig/upper)
-"aWr" = (
-/obj/machinery/door/airlock/security/glass{
-	name = "Long-Term Cell 3";
-	req_access_txt = "2"
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aWs" = (
 /obj/structure/chair/sofa{
 	color = "#c45c57"
@@ -18600,12 +18346,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/space)
-"aXB" = (
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 10
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aXC" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -18851,10 +18591,6 @@
 /obj/item/disk/nuclear,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/captain/private)
-"aYi" = (
-/obj/effect/turf_decal/trimline/red/filled/line,
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aYj" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -19047,87 +18783,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/atmos)
-"aYI" = (
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/head/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/item/clothing/head/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/item/clothing/head/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/item/clothing/head/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/item/clothing/head/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/structure/closet/crate/internals,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/space)
 "aYJ" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 4
@@ -19467,15 +19122,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/space)
-"aZu" = (
-/obj/machinery/computer/shuttle/labor{
-	dir = 4
-	},
-/obj/structure/reagent_dispensers/peppertank{
-	pixel_x = -31
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
 "aZv" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 8
@@ -19654,22 +19300,6 @@
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/brig/upper)
-"aZW" = (
-/obj/machinery/door/airlock/security/glass{
-	name = "Security Transfer Centre";
-	req_access_txt = "63"
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
-"aZY" = (
-/obj/structure/shuttle/engine/heater,
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
-/area/space)
 "aZZ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -23582,20 +23212,20 @@ anY
 anY
 anY
 anY
-abv
-abv
-abv
-abv
-abv
-asK
-asK
-asK
-asK
-asK
-asK
-aCX
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -23839,20 +23469,20 @@ anY
 anY
 anY
 anY
-aQg
-aQg
-aQg
-aQg
-aQg
-aQg
-aQg
-aQg
-aQg
-aQg
-aQg
-aAt
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -24096,20 +23726,20 @@ anY
 anY
 anY
 anY
-aQg
-alN
-alN
-aGK
-alN
-alN
-aGK
-alN
-alN
-alN
-aQg
-aAt
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -24353,20 +23983,20 @@ anY
 anY
 anY
 anY
-aQg
-ape
-aZu
-aRr
-aVj
-abV
-aHt
-aYI
-alN
-aiB
-aQg
-aAt
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -24610,20 +24240,20 @@ anY
 anY
 anY
 anY
-aQg
-ape
-abu
-aSA
-azq
-aCs
-acK
-ajm
-aZY
-aiB
-aQg
-aAt
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -24867,20 +24497,20 @@ anY
 anY
 anY
 anY
-aQg
-ape
-ayj
-aeT
-aao
-abJ
-afw
-abX
-alN
-aiB
-aQg
-aAt
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -25124,20 +24754,20 @@ anY
 anY
 anY
 anY
-aQg
-alN
-alN
-asC
-alN
-alN
-alN
-ahp
-alN
-alN
-aQg
-aAt
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -25381,20 +25011,20 @@ anY
 anY
 anY
 anY
-aFs
-aFs
-aZF
-auB
-aZF
-aFs
-aZF
-ajE
-aZF
-aFs
-aFs
-aAt
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -25638,20 +25268,20 @@ anY
 anY
 anY
 anY
-aQg
-aQg
-aZF
-aQS
-aZF
-aQg
-aZF
-aQS
-aZF
-aQg
-aQg
-aAt
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -25883,32 +25513,32 @@ anY
 anY
 anY
 anY
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aZF
-auB
-aZF
-aMh
-aZF
-ajE
-aZF
-aMh
-aMh
-aAt
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -26140,32 +25770,32 @@ anY
 anY
 anY
 anY
-aMh
-abn
-aXM
-aFv
-aMh
-abn
-aXM
-aFv
-aMh
-abn
-aXM
-aFv
-aMh
-aDR
-aDR
-aDR
-aDR
-aMh
-aDA
-awE
-aAe
-aAe
-aMh
-aAt
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -26397,32 +26027,32 @@ anY
 anY
 anY
 anY
-aMh
-azZ
-aDR
-aug
-aMh
-azZ
-aDR
-aug
-aMh
-azZ
-aDR
-aug
-aMh
-aDR
-aDR
-aDR
-aDR
-aZW
-awg
-aOq
-azn
-aIh
-aMh
-aHQ
-aCX
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -26654,32 +26284,32 @@ anY
 anY
 anY
 anY
-aMh
-aLq
-aWr
-aMh
-aMh
-aLq
-aov
-aMh
-aMh
-aLq
-aIA
-aMh
-aMh
-aDR
-aDR
-aDR
-aDR
-aMh
-aAG
-aDR
-aYi
-aFE
-aMh
-aMh
-aAt
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -26911,32 +26541,32 @@ anY
 anY
 anY
 anY
-aOq
-aOq
-aOq
-aOq
-aOq
-aOq
-aOq
-aOq
-aOq
-aOq
-aOq
-aXB
-aMh
-aDR
-aDR
-aDR
-aDR
-aMh
-aAG
-aDR
-akl
-aXB
-adG
-aZF
-aAt
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -27168,32 +26798,32 @@ anY
 anY
 anY
 anY
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aPp
-aPp
-aPp
-aPp
-aHw
-aMh
-aDR
-aDR
-aDR
-aDR
-aMh
-aAG
-aDR
-aDR
-aYi
-aVM
-aZF
-aAt
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -27425,32 +27055,32 @@ anY
 anY
 anY
 anY
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aYi
-aSp
-aMh
-aMh
-aQH
-aMh
-aMh
-aDR
-aDR
-aDR
-aDR
-aMh
-ame
-ajM
-aPp
-aHw
-aAe
-aZF
-aHQ
-aCX
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -27682,32 +27312,32 @@ anY
 anY
 anY
 anY
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aYi
-awc
-awc
-aDR
-aDR
-aDR
-aMh
-aMh
-aZW
-aMh
-aMh
-aMh
-aMh
-aMh
-awc
-aZW
-aMh
-aMh
-axu
-aAt
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -27939,32 +27569,32 @@ anY
 anY
 anY
 anY
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aYi
-awc
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aMh
-aDR
-aDR
-asH
-aDR
-aDR
-aDR
-aZF
-aIR
-aAt
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aEi
 aEi
 aEi
@@ -28196,32 +27826,32 @@ anY
 anY
 anY
 anY
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aYi
-awc
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-asH
-aDR
-aDR
-aMh
-aDR
-aDR
-aDR
-atJ
-aHg
-aiz
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 amw
 aKA
 aEi
@@ -28453,32 +28083,32 @@ anY
 anY
 anY
 anY
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aYi
-awc
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aMh
-aDR
-anX
-abI
-aDR
-aDR
-aDR
-aDR
-aVO
-aQn
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aQg
 aNH
 aEi
@@ -28710,32 +28340,32 @@ anY
 anY
 anY
 anY
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aYi
-awc
-aDR
-aDR
-aDR
-aDR
-aDR
-avb
-avb
-avb
-aMh
-aDR
-awf
-awc
-aDR
-aDR
-aDR
-aZF
-aIR
-aAt
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aRR
 aNH
 aEi
@@ -28967,32 +28597,32 @@ anY
 anY
 anY
 anY
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aYi
-awc
-awc
-aDR
-aDR
-aDR
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-awc
-aHf
-aMh
-aMh
-awB
-aAt
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aRR
 aNH
 aEi
@@ -29224,32 +28854,32 @@ anY
 anY
 anY
 anY
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aSp
-aMh
-aMh
-aQH
-aMh
-aMh
 anY
 anY
 anY
 anY
-aEi
-aDR
-aDR
-aDR
-aDR
-aDR
-aZF
-abM
-aOT
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aRR
 aNH
 aEi
@@ -29481,32 +29111,32 @@ anY
 anY
 anY
 anY
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aDR
-aMh
 anY
 anY
 anY
 anY
-aEi
-aDR
-aDR
-aDR
-aDR
-aDR
-aZF
-aAt
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aRR
 aNH
 aEi
@@ -29738,32 +29368,32 @@ anY
 anY
 anY
 anY
-aPp
-aPp
-aPp
-aPp
-aPp
-aPp
-aPp
-aPp
-aPp
-aPp
-aPp
-aDR
-aMh
 anY
 anY
 anY
 anY
-aEi
-aDR
-aDR
-aDR
-aDR
-aDR
-aZF
-aAt
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aRR
 aNH
 aEi
@@ -29995,32 +29625,32 @@ anY
 anY
 anY
 anY
-aMh
-aLq
-aIA
-aMh
-aMh
-aLq
-aIA
-aMh
-aMh
-aLq
-aIA
-aMh
-aMh
 anY
 anY
 anY
 anY
-aEi
-aDR
-aDR
-aDR
-aDR
-aMh
-aMh
-aAt
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aRR
 aNH
 aEi
@@ -30252,32 +29882,32 @@ anY
 anY
 anY
 anY
-aMh
-azZ
-aDR
-aug
-aMh
-azZ
-aDR
-aug
-aMh
-azZ
-aDR
-aug
-aMh
 anY
 anY
 anY
 anY
-aEi
-aDR
-aDR
-aDR
-aDR
-aMh
-aEi
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aRR
 aNH
 aEi
@@ -30509,32 +30139,32 @@ anY
 anY
 anY
 anY
-aMh
-abn
-aXM
-aFv
-aMh
-abn
-aXM
-aFv
-aMh
-abn
-aXM
-aFv
-aMh
 anY
 anY
 anY
 anY
-aEi
-aEi
-aEi
-aMh
-aMh
-aMh
-aEi
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aRR
 aNH
 aEi
@@ -30766,32 +30396,32 @@ anY
 anY
 anY
 anY
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
-aMh
 anY
 anY
 anY
 anY
-aEi
-aEi
-aEi
-aEi
-aEi
-aEi
-aEi
-aEi
-aEi
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
+anY
 aRR
 aNH
 aEi
@@ -37471,7 +37101,7 @@ aTa
 ayX
 aqT
 aaZ
-aqE
+abv
 abB
 aZB
 aWE
@@ -42355,10 +41985,10 @@ anY
 anY
 anY
 anY
-anY
-anY
-anY
-anY
+aLd
+aLd
+aLd
+aLd
 aLd
 aQf
 aQf
@@ -61211,7 +60841,7 @@ aQg
 aQg
 aQg
 aQg
-aEi
+aKA
 aEi
 aEi
 aEi
@@ -61468,7 +61098,7 @@ aQg
 aQg
 aQg
 aQg
-aEi
+aFp
 aEi
 aEi
 aEi
@@ -61711,7 +61341,7 @@ aEi
 aEi
 aEi
 aEi
-aEi
+acr
 aQg
 aQg
 aQg
@@ -61968,7 +61598,7 @@ aEi
 aEi
 aEi
 aEi
-aEi
+abJ
 aQg
 aQg
 aQg
@@ -70823,7 +70453,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -70831,7 +70461,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -71080,7 +70710,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -71088,7 +70718,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -71337,7 +70967,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -71345,7 +70975,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -71594,7 +71224,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -71602,7 +71232,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -71851,7 +71481,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -71859,7 +71489,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -72108,7 +71738,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -72116,7 +71746,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -72365,7 +71995,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -72373,7 +72003,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -72622,7 +72252,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -72630,7 +72260,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -72879,7 +72509,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -72887,7 +72517,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -73136,7 +72766,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -73144,7 +72774,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -73393,7 +73023,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -73401,7 +73031,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -73650,7 +73280,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -73658,7 +73288,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -73907,7 +73537,7 @@ anY
 anY
 anY
 anY
-anY
+aao
 aVR
 aiM
 aiM
@@ -73915,7 +73545,7 @@ aiM
 aiM
 aiM
 awv
-anY
+abu
 anY
 anY
 anY
@@ -114574,7 +114204,7 @@ akP
 akP
 akP
 akP
-aDG
+abV
 aDG
 aDG
 aDG
@@ -118186,8 +117816,8 @@ aLa
 aVC
 aVC
 aFM
-anG
-akx
+abX
+ajm
 akx
 aTS
 awc
@@ -118443,8 +118073,8 @@ aqX
 aVC
 aVC
 amN
-akx
-akx
+acK
+ajE
 akx
 aTS
 aMh
@@ -118700,8 +118330,8 @@ aJS
 aVC
 aVC
 amN
-akx
-akx
+adG
+ajM
 akx
 aTS
 atl
@@ -118957,8 +118587,8 @@ aLa
 aVC
 aVC
 amN
-akx
-akx
+aeT
+akl
 akx
 aTS
 awc
@@ -119214,8 +118844,8 @@ aqX
 aVC
 aVC
 amN
-akx
-akx
+afw
+alN
 akx
 aTS
 atl
@@ -119471,8 +119101,8 @@ aJS
 aVC
 aVC
 amN
-akx
-akx
+ahp
+ame
 akx
 aTS
 aMh
@@ -119728,8 +119358,8 @@ aLa
 aVC
 aVC
 aHk
-axn
-akx
+aiB
+anX
 akx
 aTS
 awc
@@ -123074,7 +122704,7 @@ amG
 akx
 akx
 aaE
-aCw
+aov
 aNV
 ajD
 aHZ
@@ -125664,14 +125294,14 @@ azx
 aZF
 aEi
 anm
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
 aEi
 aEi
 aEi
@@ -125921,14 +125551,14 @@ aZF
 aZF
 aEi
 anm
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
 aEi
 aEi
 aEi
@@ -126178,14 +125808,14 @@ aZF
 aEi
 aEi
 anm
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
 aEi
 aEi
 aEi
@@ -126435,14 +126065,14 @@ aEi
 aEi
 anm
 anm
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
 aEi
 aEi
 aEi
@@ -126691,15 +126321,15 @@ aEi
 agK
 aEi
 anm
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
 aEi
 aEi
 aEi
@@ -126948,15 +126578,15 @@ aEi
 aEi
 aEi
 adS
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
 aEi
 aEi
 aEi
@@ -127205,15 +126835,15 @@ aEi
 aEi
 aEi
 adS
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
 aEi
 aEi
 aEi
@@ -127462,15 +127092,15 @@ aEi
 aEi
 adS
 adS
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
 aEi
 aEi
 aEi
@@ -127718,16 +127348,16 @@ adS
 adS
 adS
 adS
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
-anY
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
+aEi
 aEi
 aEi
 aEi
