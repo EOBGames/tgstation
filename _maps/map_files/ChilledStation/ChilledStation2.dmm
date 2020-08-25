@@ -19765,6 +19765,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/space)
+"lzF" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "lzL" = (
 /obj/structure/chair/office,
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden,
@@ -19801,6 +19805,9 @@
 /area/security/warden)
 "mzQ" = (
 /obj/effect/turf_decal/delivery,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/space)
 "mBi" = (
@@ -20132,6 +20139,10 @@
 /obj/structure/chair/sofa/right{
 	dir = 1
 	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"tWo" = (
+/obj/structure/chair/office,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "tYJ" = (
@@ -118523,9 +118534,9 @@ aMh
 aMh
 aMh
 aMh
-anY
-anY
-anY
+akx
+akx
+akx
 anY
 anY
 anY
@@ -118780,9 +118791,9 @@ aDR
 aUK
 awc
 akx
-anY
-anY
-anY
+akx
+akx
+akx
 anY
 anY
 anY
@@ -119037,9 +119048,9 @@ aDR
 kKX
 awc
 akx
-anY
-anY
-anY
+akx
+akx
+akx
 anY
 anY
 anY
@@ -119294,9 +119305,9 @@ aDR
 mzQ
 iok
 akx
-anY
-anY
-anY
+akx
+akx
+akx
 anY
 anY
 anY
@@ -119548,12 +119559,12 @@ anY
 anY
 aDR
 aDR
-aDR
+lzF
 awc
 akx
-anY
-anY
-anY
+akx
+akx
+akx
 anY
 anY
 anY
@@ -119805,12 +119816,12 @@ anY
 anY
 aDR
 aDR
-aDR
+tWo
 abI
 akx
-anY
-anY
-anY
+akx
+akx
+akx
 anY
 anY
 anY
@@ -120065,9 +120076,9 @@ aDR
 aDR
 awc
 akx
-anY
-anY
-anY
+akx
+akx
+akx
 anY
 anY
 anY
@@ -120322,9 +120333,9 @@ anY
 anY
 aMh
 aMh
-anY
-anY
-anY
+akx
+akx
+akx
 anY
 anY
 anY
