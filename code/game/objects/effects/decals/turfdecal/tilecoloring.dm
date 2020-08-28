@@ -499,3 +499,10 @@
 
 /obj/effect/turf_decal/trimline/neutral/filled/shrink_ccw
 	icon_state = "trimline_shrink_ccw"
+
+//Special Tiles
+/obj/effect/turf_decal/tile/noslip
+	icon_state = "tile_corner_noslip"
+
+/obj/effect/turf_decal/tile/noslip/grey
+	icon_state = "tile_corner_noslip_grey"
