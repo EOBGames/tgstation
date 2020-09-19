@@ -16943,6 +16943,19 @@
 /obj/effect/turf_decal/trimline/red/filled/line,
 /turf/open/floor/plasteel/dark,
 /area/space)
+"guP" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/bridge)
 "gvS" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/flora/ausbushes/brflowers,
@@ -17552,6 +17565,9 @@
 /area/space)
 "iqK" = (
 /obj/structure/window/reinforced/spawner/north,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "iqY" = (
@@ -18119,6 +18135,7 @@
 /area/engine/atmospherics_engine)
 "kcu" = (
 /obj/structure/plasticflaps/opaque,
+/obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "kds" = (
@@ -19871,6 +19888,17 @@
 "oMQ" = (
 /turf/open/floor/plasteel/white,
 /area/space)
+"oPl" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/corner{
+	dir = 1
+	},
+/area/space)
 "oPG" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/cracker{
@@ -20591,6 +20619,16 @@
 /area/engine/atmos)
 "qLn" = (
 /obj/machinery/computer/communications{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
@@ -21956,6 +21994,9 @@
 	name = "Command Chair";
 	req_access_txt = "19"
 	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "uDK" = (
@@ -22743,6 +22784,30 @@
 "wJj" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/bridge)
+"wJL" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "wLr" = (
@@ -22988,6 +23053,16 @@
 	desc = "A comfortable, secure seat. It exudes an aura of extreme authority.";
 	name = "authority chair"
 	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "xjQ" = (
@@ -23084,6 +23159,21 @@
 /turf/open/floor/carpet/royalblue,
 /area/crew_quarters/heads/captain/private)
 "xxd" = (
+/turf/open/floor/plasteel/dark,
+/area/bridge)
+"xxe" = (
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "xxD" = (
@@ -181047,7 +181137,7 @@ bQR
 vvG
 wvT
 aEf
-dOo
+oPl
 akx
 oKJ
 akx
@@ -186509,8 +186599,8 @@ tfM
 tfM
 tfM
 tfM
-xxd
-xxd
+lvy
+xEP
 xxd
 xxd
 xxd
@@ -186765,9 +186855,9 @@ dmM
 ciz
 grK
 tfM
-sxc
-sxc
-sxc
+xxe
+xxe
+xxe
 iqK
 xxd
 uNq
@@ -187022,9 +187112,9 @@ dmM
 gDn
 grK
 tfM
-xxd
-xxd
-msT
+guP
+guP
+wJL
 iqK
 xxd
 xxd
@@ -187279,7 +187369,7 @@ dmM
 qXv
 wsw
 roz
-xxd
+guP
 xhp
 qLn
 iqK
@@ -187472,8 +187562,8 @@ avf
 hQC
 amY
 awc
-akx
-akx
+oPl
+lOa
 akx
 akx
 aLd
@@ -187536,9 +187626,9 @@ dmM
 gDn
 grK
 tfM
-xxd
-xxd
-xxd
+guP
+guP
+guP
 uCE
 xxd
 xxd
@@ -187729,7 +187819,7 @@ aXh
 avr
 erJ
 awc
-akx
+dOo
 akx
 akx
 akx
@@ -187986,7 +188076,7 @@ mkc
 avr
 vJm
 kcu
-akx
+qzS
 akx
 akx
 akx
@@ -188051,8 +188141,8 @@ tfM
 tfM
 tfM
 tfM
-xxd
-xxd
+iRr
+fSr
 xxd
 xxd
 xxd
@@ -188243,7 +188333,7 @@ hoK
 bAq
 sjZ
 awc
-akx
+dOo
 akx
 akx
 akx
@@ -188500,7 +188590,7 @@ hoK
 aXh
 izx
 auz
-akx
+dOo
 akx
 akx
 akx
@@ -188757,7 +188847,7 @@ fZM
 auZ
 eYe
 awc
-akx
+vtT
 akx
 akx
 akx
@@ -189520,11 +189610,11 @@ anY
 anY
 anY
 anY
-anY
-anY
-anY
-anY
-anY
+ayf
+ayf
+ayf
+ayf
+ayf
 anY
 anY
 anY
@@ -189777,11 +189867,11 @@ anY
 anY
 anY
 anY
+ayf
 anY
 anY
 anY
-anY
-anY
+ayf
 anY
 anY
 anY
@@ -190034,11 +190124,11 @@ anY
 anY
 anY
 anY
+ayf
 anY
 anY
 anY
-anY
-anY
+ayf
 anY
 anY
 anY
@@ -190548,11 +190638,11 @@ anY
 anY
 anY
 anY
-anY
-anY
-anY
-anY
-anY
+ayf
+ayf
+ayf
+ayf
+ayf
 anY
 anY
 anY
@@ -190805,11 +190895,11 @@ anY
 anY
 anY
 anY
+ayf
 anY
+ayf
 anY
-anY
-anY
-anY
+ayf
 anY
 anY
 anY
@@ -191062,11 +191152,11 @@ anY
 anY
 anY
 anY
+ayf
 anY
 anY
 anY
-anY
-anY
+ayf
 anY
 anY
 anY
