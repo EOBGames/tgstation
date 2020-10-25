@@ -317,7 +317,6 @@
 		/datum/reagent/consumable/mayonnaise = list("condi_mayo", "Mayonnaise", "An oily condiment made from egg yolks."),
 		/datum/reagent/consumable/mustard = list("condi_mustard", "Mustard", "Is it French? German? English? American? Who really knows? Who really cares?")
 		)
-	)
 	/// Can't use initial(name) for this. This stores the name set by condimasters.
 	var/originalname = "condiment"
 
@@ -397,7 +396,7 @@
 /obj/item/reagent_containers/food/condiment/pack/salt
 	name = "salt pack"
 	originalname = "salt"
-	list_reagents = list(/datum/reagent/consumable/sodiumchloride = 10)
+	list_reagents = list(/datum/reagent/consumable/salt = 10)
 
 /obj/item/reagent_containers/food/condiment/pack/pepper
 	name = "pepper pack"
