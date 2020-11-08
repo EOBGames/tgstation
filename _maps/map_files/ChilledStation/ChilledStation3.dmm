@@ -9,7 +9,7 @@
 "bw" = (/obj/structure/lattice,/obj/structure/railing,/turf/open/openspace/icemoon,/area/space)
 "bB" = (/obj/effect/turf_decal/trimline/brown/filled/line{dir = 10},/turf/open/floor/plasteel,/area/space)
 "bL" = (/obj/structure/chair{dir = 8},/turf/open/floor/plasteel/dark,/area/space)
-"bM" = (/obj/structure/rack,/obj/item/mining_scanner,/turf/open/floor/plasteel/dark,/area/space)
+"bM" = (/obj/structure/rack,/obj/item/mining_scanner,/turf/open/floor/pod/dark,/area/space)
 "bP" = (/obj/structure/lattice/catwalk,/turf/open/openspace/icemoon,/area/space)
 "ca" = (/obj/structure/ladder,/turf/open/floor/plasteel/dark,/area/space)
 "cc" = (/turf/closed/wall/ice,/area/space)
@@ -44,12 +44,12 @@
 "gu" = (/obj/structure/lattice/catwalk,/obj/item/stack/marker_beacon{anchored = 1; icon_state = "markerburgundy-on"; light_color = "#FA644B"; light_power = 3; light_range = 2; name = "landing marker"; picked_color = "Burgundy"},/turf/open/openspace/icemoon,/area/space)
 "gC" = (/turf/closed/indestructible/rock/snow,/area/space)
 "gO" = (/obj/structure/chair/sofa/corp/right,/obj/structure/noticeboard/staff{pixel_y = 27},/obj/effect/landmark/start/shaft_miner,/turf/open/floor/plasteel,/area/space)
-"gP" = (/obj/structure/rack,/obj/item/clothing/mask/gas/explorer,/turf/open/floor/plasteel/dark,/area/space)
+"gP" = (/obj/structure/rack,/obj/item/clothing/mask/gas/explorer,/turf/open/floor/pod/dark,/area/space)
 "gR" = (/obj/effect/turf_decal/box/corners{dir = 4},/turf/open/floor/pod/dark,/area/space)
 "hm" = (/obj/structure/reagent_dispensers/fueltank,/turf/open/floor/pod/light,/area/space)
 "hn" = (/obj/structure/closet/secure_closet/miner,/turf/open/floor/pod/light,/area/space)
 "hr" = (/obj/item/stack/marker_beacon{anchored = 1; icon_state = "markerburgundy-on"; light_color = "#FA644B"; light_power = 3; light_range = 2; name = "landing marker"; picked_color = "Burgundy"},/turf/open/floor/pod/light,/area/space)
-"hy" = (/obj/structure/rack,/obj/item/storage/cans/sixbeer,/turf/open/floor/plasteel/dark,/area/space)
+"hy" = (/obj/structure/rack,/obj/item/storage/backpack/explorer{pixel_y = 5},/obj/item/storage/backpack/explorer,/turf/open/floor/pod/dark,/area/space)
 "hF" = (/obj/structure/chair/sofa/corp/left,/turf/open/floor/plasteel,/area/space)
 "hK" = (/obj/structure/table,/obj/machinery/microwave{pixel_y = 4},/turf/open/floor/plasteel,/area/space)
 "hS" = (/obj/structure/disposalpipe/segment{dir = 5},/turf/closed/wall,/area/space)
@@ -57,13 +57,12 @@
 "ie" = (/obj/machinery/door/airlock/grunge,/turf/open/floor/pod/light,/area/space)
 "ig" = (/obj/structure/holosign/barrier/atmos,/turf/open/floor/plasteel,/area/space)
 "ik" = (/obj/structure/fans/tiny,/turf/open/floor/pod/light,/area/space)
-"ip" = (/obj/structure/rack,/obj/item/storage/bag/ore,/obj/item/storage/bag/ore{pixel_y = -4},/turf/open/floor/plasteel/dark,/area/space)
 "it" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/plasteel/dark,/area/space)
 "iy" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 8},/turf/open/floor/plasteel/dark,/area/space)
 "iF" = (/obj/structure/chair/office{dir = 8},/turf/open/floor/plasteel,/area/space)
 "iP" = (/obj/structure/grille,/turf/open/floor/plating/snowed/smoothed/icemoon,/area/space)
 "jp" = (/obj/effect/turf_decal/siding/wideplating/dark{dir = 1},/turf/open/floor/pod/dark,/area/space)
-"jx" = (/obj/structure/closet/secure_closet/miner,/turf/open/floor/plasteel/dark,/area/space)
+"jx" = (/obj/structure/closet/secure_closet/miner,/turf/open/floor/pod/dark,/area/space)
 "jG" = (/obj/structure/chair/sofa/right{dir = 4},/turf/open/floor/plasteel/dark,/area/space)
 "jI" = (/turf/closed/indestructible/rock/snow/ice,/area/space)
 "jQ" = (/obj/effect/turf_decal/trimline/brown/filled/corner{dir = 1},/turf/open/floor/plasteel,/area/space)
@@ -76,7 +75,7 @@
 "kS" = (/obj/machinery/computer/cargo{dir = 4},/turf/open/floor/plasteel,/area/space)
 "ll" = (/turf/open/floor/plasteel/elevatorshaft,/area/space)
 "ln" = (/obj/effect/turf_decal/trimline/yellow/warning{dir = 1},/obj/effect/decal/cleanable/oil,/turf/open/floor/pod/light,/area/space)
-"lA" = (/obj/machinery/vending/cigarette,/turf/open/floor/plasteel/dark,/area/space)
+"lA" = (/obj/machinery/vending/cigarette,/turf/open/floor/pod/dark,/area/space)
 "lF" = (/obj/structure/chair/sofa/corp/right,/turf/open/floor/plasteel,/area/space)
 "lJ" = (/obj/structure/railing,/turf/open/openspace/icemoon,/area/space)
 "lN" = (/obj/effect/turf_decal/trimline/brown/filled/line{dir = 4},/turf/open/floor/plasteel,/area/space)
@@ -91,7 +90,7 @@
 "mJ" = (/turf/closed/mineral/random/snow,/area/space)
 "mO" = (/obj/structure/industrial_lift,/turf/open/openspace,/area/space)
 "mX" = (/obj/structure/railing{dir = 4},/turf/open/floor/pod/light,/area/space)
-"mZ" = (/obj/structure/rack,/turf/open/floor/plasteel/dark,/area/space)
+"mZ" = (/obj/structure/rack,/obj/item/storage/bag/ore,/obj/item/storage/bag/ore{pixel_y = -4},/turf/open/floor/pod/dark,/area/space)
 "ne" = (/obj/effect/turf_decal/box/corners{dir = 8},/turf/open/floor/pod/dark,/area/space)
 "nl" = (/turf/open/floor/pod/light,/area/space)
 "ns" = (/obj/effect/turf_decal/trimline/yellow/warning{dir = 1},/turf/open/floor/pod/light,/area/space)
@@ -117,7 +116,7 @@
 "qf" = (/obj/machinery/disposal/delivery_chute,/obj/structure/plasticflaps,/turf/open/floor/plating,/area/space)
 "qp" = (/obj/structure/grille/broken,/turf/open/floor/plating/snowed/smoothed/icemoon,/area/space)
 "qv" = (/obj/structure/railing/corner{dir = 4},/turf/open/openspace/icemoon,/area/space)
-"qP" = (/obj/effect/turf_decal/trimline/yellow/corner{dir = 8},/obj/effect/turf_decal/trimline/yellow/line{dir = 1},/turf/open/floor/plasteel/dark,/area/space)
+"qP" = (/obj/effect/turf_decal/trimline/yellow/filled/line{dir = 5},/turf/open/floor/plasteel/dark,/area/space)
 "qU" = (/obj/effect/landmark/start/shaft_miner,/turf/open/floor/plasteel,/area/space)
 "rd" = (/obj/machinery/photocopier,/turf/open/floor/plasteel,/area/space)
 "rf" = (/obj/machinery/photocopier,/obj/effect/turf_decal/trimline/brown/filled/line{dir = 9},/turf/open/floor/plasteel,/area/space)
@@ -155,6 +154,7 @@
 "vH" = (/obj/machinery/suit_storage_unit/mining,/turf/open/floor/pod/dark,/area/space)
 "vQ" = (/obj/effect/turf_decal/caution/stand_clear{dir = 1},/obj/effect/turf_decal/stripes,/turf/open/floor/pod/light,/area/space)
 "vY" = (/turf/closed/indestructible/rock/snow/ice/ore,/area/space)
+"we" = (/obj/effect/turf_decal/trimline/yellow/filled/corner,/turf/open/floor/plasteel/dark,/area/space)
 "wj" = (/obj/effect/turf_decal/trimline/yellow/corner{dir = 1},/turf/open/floor/pod/dark,/area/space)
 "wm" = (/turf/closed/wall,/area/space)
 "wu" = (/obj/structure/railing,/obj/structure/lattice,/turf/open/openspace/icemoon,/area/space)
@@ -163,7 +163,7 @@
 "xB" = (/obj/machinery/door/poddoor/shutters{id = "miningbaseint"},/turf/open/floor/pod/dark,/area/space)
 "xD" = (/obj/structure/table,/obj/effect/turf_decal/trimline/brown/filled/line,/turf/open/floor/plasteel,/area/space)
 "xL" = (/obj/machinery/door/airlock/grunge,/turf/open/space/basic,/area/space)
-"xX" = (/obj/effect/turf_decal/trimline/yellow/line{dir = 6},/turf/open/floor/plasteel/dark,/area/space)
+"xX" = (/obj/effect/turf_decal/trimline/yellow/filled/line{dir = 6},/turf/open/floor/plasteel/dark,/area/space)
 "yc" = (/turf/closed/wall/mineral/titanium,/area/space)
 "yq" = (/obj/structure/chair/sofa/corp/left{dir = 4},/turf/open/floor/plasteel/dark,/area/space)
 "yw" = (/obj/structure/lattice,/obj/structure/lattice/catwalk,/obj/item/stack/marker_beacon{anchored = 1; icon_state = "markerburgundy-on"; light_color = "#FA644B"; light_power = 3; light_range = 2; name = "landing marker"; picked_color = "Burgundy"},/turf/open/openspace/icemoon,/area/space)
@@ -177,7 +177,7 @@
 "zf" = (/obj/structure/chair/sofa/corp/left{dir = 1},/turf/open/floor/plasteel,/area/space)
 "zj" = (/obj/structure/chair/sofa/corp/right{dir = 1},/obj/effect/turf_decal/trimline/brown/filled/line{dir = 10},/turf/open/floor/plasteel,/area/space)
 "zn" = (/obj/structure/window{dir = 8},/obj/structure/window{dir = 4},/obj/structure/flora/grass/jungle,/obj/structure/flora/rock/pile,/obj/machinery/light/floor,/turf/open/floor/plating/grass,/area/space)
-"zo" = (/obj/effect/turf_decal/trimline/yellow/corner,/obj/effect/turf_decal/trimline/yellow/line{dir = 1},/turf/open/floor/plasteel/dark,/area/space)
+"zo" = (/obj/effect/turf_decal/trimline/yellow/filled/line{dir = 8},/turf/open/floor/plasteel/dark,/area/space)
 "zS" = (/obj/machinery/door/airlock/titanium{name = "Mining Shuttle Airlock"},/turf/open/floor/plating,/area/space)
 "zV" = (/obj/machinery/door/poddoor/shutters,/turf/open/floor/pod/dark,/area/space)
 "Ae" = (/obj/effect/turf_decal/trimline/yellow/warning{dir = 4},/turf/open/floor/plasteel/dark,/area/space)
@@ -201,7 +201,7 @@
 "Dk" = (/obj/effect/turf_decal/trimline/yellow/corner{dir = 4},/turf/open/floor/plasteel/dark,/area/space)
 "Dx" = (/obj/structure/filingcabinet,/turf/open/floor/plasteel,/area/space)
 "DE" = (/obj/machinery/door/airlock/mining/glass{name = "Mining"; req_access_txt = "48"},/obj/machinery/door/firedoor,/turf/open/floor/plasteel,/area/space)
-"DI" = (/obj/effect/turf_decal/trimline/yellow/line{dir = 10},/turf/open/floor/plasteel/dark,/area/space)
+"DI" = (/obj/effect/turf_decal/trimline/yellow/filled/line{dir = 10},/turf/open/floor/plasteel/dark,/area/space)
 "DK" = (/obj/effect/turf_decal/trimline/yellow/warning{dir = 1},/turf/open/floor/plasteel/dark,/area/space)
 "DO" = (/obj/effect/turf_decal/stripes{dir = 8},/turf/open/floor/pod/dark,/area/space)
 "DQ" = (/turf/open/openspace,/area/space)
@@ -242,14 +242,15 @@
 "IU" = (/obj/machinery/door/airlock/public/glass,/turf/open/floor/plasteel/dark,/area/space)
 "IW" = (/obj/structure/table,/obj/structure/bedsheetbin,/turf/open/floor/plasteel,/area/space)
 "IX" = (/obj/structure/railing{dir = 8},/turf/open/openspace/icemoon,/area/space)
-"Jd" = (/obj/item/kirbyplants{icon_state = "plant-21"},/obj/structure/window/reinforced/spawner/north,/obj/effect/turf_decal/trimline/yellow/line,/turf/open/floor/plasteel/dark,/area/space)
+"Jd" = (/obj/effect/turf_decal/trimline/yellow/filled/line{dir = 4},/turf/open/floor/plasteel/dark,/area/space)
 "Jf" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 8},/obj/structure/shuttle/engine/heater{dir = 4},/turf/open/floor/pod/dark,/area/space)
 "Jk" = (/turf/open/floor/plating/ice/smooth,/area/space)
+"Jn" = (/obj/structure/rack,/turf/open/floor/pod/dark,/area/space)
 "Jr" = (/obj/structure/window/reinforced/fulltile/ice,/turf/open/floor/plating/icemoon,/area/space)
 "JE" = (/turf/open/floor/carpet,/area/space)
 "JH" = (/obj/structure/shuttle/engine/propulsion/burst{dir = 4},/turf/open/floor/plating/icemoon,/area/space)
 "JT" = (/turf/open/floor/plating,/area/space)
-"JU" = (/obj/effect/turf_decal/trimline/yellow/line{dir = 8},/turf/open/floor/plasteel/dark,/area/space)
+"JU" = (/obj/effect/turf_decal/trimline/yellow/filled/line{dir = 9},/turf/open/floor/plasteel/dark,/area/space)
 "JV" = (/obj/structure/closet/crate,/turf/open/floor/mineral/titanium/blue,/area/space)
 "JY" = (/obj/structure/disposalpipe/segment{dir = 10},/turf/closed/wall,/area/space)
 "Kc" = (/obj/machinery/door/firedoor,/obj/structure/sign/departments/cargo{pixel_y = 32},/turf/open/floor/plasteel,/area/space)
@@ -285,6 +286,7 @@
 "Nt" = (/obj/structure/lattice,/obj/structure/railing{dir = 8},/turf/open/openspace/icemoon,/area/space)
 "Nw" = (/obj/structure/lattice,/turf/open/openspace/icemoon,/area/space)
 "NC" = (/obj/effect/turf_decal/trimline/yellow/line,/obj/effect/turf_decal/stripes/corner{dir = 1},/turf/open/floor/pod/dark,/area/space)
+"NG" = (/obj/effect/turf_decal/trimline/yellow/filled/line,/turf/open/floor/plasteel/dark,/area/space)
 "NI" = (/obj/effect/turf_decal/trimline/yellow/warning,/turf/open/floor/plasteel/dark,/area/space)
 "NW" = (/obj/machinery/space_heater,/turf/open/floor/plating,/area/space)
 "NZ" = (/obj/effect/turf_decal/trimline/brown/filled/line{dir = 5},/turf/open/floor/plasteel,/area/space)
@@ -297,7 +299,7 @@
 "Po" = (/obj/structure/lattice/catwalk,/obj/structure/railing{dir = 10},/turf/open/openspace/icemoon,/area/space)
 "PC" = (/obj/structure/reagent_dispensers/watertank,/obj/effect/turf_decal/box/corners{dir = 4},/obj/effect/turf_decal/box/corners,/turf/open/floor/pod/dark,/area/space)
 "PF" = (/obj/structure/lattice,/turf/open/space/basic,/area/space)
-"PR" = (/obj/structure/rack,/obj/item/storage/backpack/explorer{pixel_y = 5},/obj/item/storage/backpack/explorer,/turf/open/floor/plasteel/dark,/area/space)
+"PR" = (/obj/effect/turf_decal/trimline/yellow/filled/line{dir = 1},/turf/open/floor/plasteel/dark,/area/space)
 "PZ" = (/obj/machinery/rnd/production/techfab/department/cargo,/turf/open/floor/plasteel,/area/space)
 "Qm" = (/obj/structure/chair/stool,/turf/open/floor/pod/light,/area/space)
 "Qs" = (/obj/structure/closet/secure_closet/personal,/turf/open/floor/plasteel,/area/space)
@@ -307,7 +309,7 @@
 "Re" = (/obj/effect/turf_decal/trimline/brown/filled/line{dir = 8},/turf/open/floor/plasteel,/area/space)
 "Rf" = (/obj/effect/decal/cleanable/greenglow,/obj/item/reagent_containers/glass/bucket{pixel_x = -5; pixel_y = -2},/obj/item/caution{pixel_x = 9; pixel_y = 8},/turf/open/floor/plasteel/dark,/area/space)
 "Rn" = (/obj/structure/disposaloutlet{dir = 1},/obj/structure/plasticflaps,/turf/open/floor/plating,/area/space)
-"Ry" = (/obj/machinery/mineral/equipment_vendor,/turf/open/floor/plasteel/dark,/area/space)
+"Ry" = (/obj/machinery/mineral/equipment_vendor,/turf/open/floor/pod/dark,/area/space)
 "RH" = (/obj/machinery/door/airlock/mining/glass{name = "Cargo Office"; req_one_access_txt = "31;48"},/turf/open/floor/plasteel,/area/space)
 "RN" = (/obj/structure/fence/post{dir = 4},/turf/open/floor/plating/asteroid/snow/icemoon,/area/space)
 "RU" = (/obj/structure/window{dir = 8},/obj/structure/window{dir = 4},/obj/structure/flora/grass/jungle,/obj/structure/flora/junglebush/c,/obj/machinery/light/floor,/turf/open/floor/plating/grass,/area/space)
@@ -318,10 +320,11 @@
 "SU" = (/obj/structure/table,/obj/item/weldingtool,/obj/item/clothing/glasses/welding,/turf/open/floor/pod/light,/area/space)
 "Tx" = (/obj/structure/table/wood,/obj/machinery/microwave{pixel_y = 4},/turf/open/floor/plasteel/dark,/area/space)
 "TJ" = (/obj/effect/turf_decal/trimline/brown/filled/line{dir = 1},/turf/open/floor/plasteel,/area/space)
+"Ue" = (/obj/machinery/door/airlock/mining,/turf/open/floor/plasteel/dark,/area/space)
 "Um" = (/obj/effect/turf_decal/stripes/line{dir = 8},/obj/effect/turf_decal/trimline/brown/filled/line{dir = 8},/turf/open/floor/plasteel,/area/space)
 "Uq" = (/obj/machinery/computer/security/mining{dir = 4},/obj/effect/turf_decal/trimline/brown/filled/line{dir = 8},/turf/open/floor/plasteel,/area/space)
 "Ur" = (/obj/structure/lattice,/obj/structure/railing{dir = 4},/turf/open/openspace/icemoon,/area/space)
-"Uy" = (/obj/effect/turf_decal/trimline/yellow/line,/turf/open/floor/plasteel/dark,/area/space)
+"Uy" = (/obj/machinery/door/poddoor/shutters{id = "miningwarehouse2"},/turf/open/floor/plating,/area/space)
 "UD" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/drinks/bottle/vodka{pixel_x = -9},/obj/item/reagent_containers/food/drinks/bottle/whiskey{pixel_x = 1},/turf/open/floor/plasteel/dark,/area/space)
 "UF" = (/obj/structure/window{dir = 8},/obj/structure/window{dir = 4},/obj/machinery/light/floor,/turf/open/floor/plating/grass,/area/space)
 "UX" = (/obj/item/chair/stool,/turf/open/floor/carpet,/area/space)
@@ -332,6 +335,7 @@
 "VD" = (/obj/structure/railing{dir = 4},/turf/open/openspace/icemoon,/area/space)
 "VE" = (/obj/machinery/vending/snack,/turf/open/floor/plasteel,/area/space)
 "VK" = (/obj/structure/table,/obj/item/wrench,/turf/open/floor/pod/light,/area/space)
+"VT" = (/obj/effect/turf_decal/trimline/yellow/filled/corner{dir = 8},/turf/open/floor/plasteel/dark,/area/space)
 "Wd" = (/obj/effect/turf_decal/loading_area{dir = 4},/obj/effect/turf_decal/trimline/brown/filled/line{dir = 8},/turf/open/floor/plasteel,/area/space)
 "We" = (/obj/structure/window{dir = 1},/obj/structure/window,/turf/open/floor/plating/grass,/area/space)
 "Wo" = (/obj/structure/window/reinforced{dir = 8; layer = 2.9},/obj/machinery/disposal/bin,/turf/open/floor/plasteel,/area/space)
@@ -341,6 +345,7 @@
 "WP" = (/turf/closed/wall/r_wall/ice,/area/space)
 "Xa" = (/obj/machinery/door/firedoor,/turf/open/floor/plasteel,/area/space)
 "XG" = (/obj/structure/window/reinforced/fulltile/ice,/turf/open/floor/plating,/area/space)
+"XN" = (/obj/machinery/disposal/bin,/turf/open/floor/pod/dark,/area/space)
 "XT" = (/obj/structure/railing{dir = 9},/turf/open/openspace/icemoon,/area/space)
 "XW" = (/obj/machinery/autolathe,/turf/open/floor/plasteel,/area/space)
 "XY" = (/obj/machinery/vending/wardrobe/cargo_wardrobe,/turf/open/floor/plasteel,/area/space)
@@ -354,7 +359,7 @@
 "ZH" = (/obj/structure/table,/obj/item/screwdriver{pixel_y = 11},/turf/open/floor/plasteel,/area/space)
 "ZQ" = (/obj/effect/turf_decal/trimline/yellow/warning{dir = 8},/turf/open/floor/plasteel/dark,/area/space)
 "ZU" = (/obj/effect/turf_decal/trimline/yellow/corner{dir = 8},/obj/structure/sign/poster/official/report_crimes{pixel_y = 32},/turf/open/floor/plasteel/dark,/area/space)
-"ZX" = (/obj/effect/turf_decal/trimline/yellow/line,/obj/machinery/button/elevator{pixel_y = -25},/turf/open/floor/plasteel/dark,/area/space)
+"ZX" = (/obj/machinery/button/elevator{pixel_y = -25},/obj/effect/turf_decal/trimline/yellow/filled/line,/turf/open/floor/plasteel/dark,/area/space)
 
 (1,1,1) = {"
 vYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvYvY
@@ -721,21 +726,21 @@ HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
 HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDbPmXOfXGAernmOodZQFRnSGpicReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
 HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDbPmXOfXGAemOmOmOZQFRkGGpuVReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
 HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDbPnlnlccDkDKDKDKEgFRdAGpSoReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
-HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDbPnlccccwmUyUyUyUyUyJdwmwmReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
-HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDbPnlHYFRNnFRFRFRFRFRFRFRQCReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
-HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDbPnlXGFRGpFRFRFRFRFRFRFRGpReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
-HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDbPnlHYFRNnFRFRFRFRFRFRFRQCReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
-HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDgubPLEccccqPxgxgxgxgzowmwmReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
-HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfqvpNpNMGXGvHJUFRipPRFRmtjxwmReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
-HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfMGXGvHJUFRgPhyFRmtjxwmReAilNwmHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
-HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfMGXGvHJUFRmZbMFRmtjxwmReAilNlRJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
-HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfMGcccMDIuPFRFRLqxXRywmbBcBdIwmJTJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
-HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfMGcccclADIZXUyxXYSwmwmGpcmGpwmwmJTJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
+HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDbPnlccccwmUyUyUywmQCGpwmwmReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
+HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDbPnlHYFRNnJUPRPRPRPRPRqPQCReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
+HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDbPnlXGFRGpzoFRFRFRFRFRJdGpReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
+HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDbPnlHYFRNnDINGNGNGNGNGxXQCReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
+HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfVDgubPLEccwmwmwmwmwmUewmwmwmReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
+HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfqvpNpNMGXGvHJUPRPRPRPRqPjxwmReAilNHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
+HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfMGXGvHzoFRgPhyFRJdjxwmReAilNwmHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
+HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfMGXGvHzoFRmZbMFRJdjxwmReAilNlRJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
+HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfMGcccMDIVTJnJnwexXRywmbBcBdIwmJTJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
+HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfMGcccclADIZXNGxXXNwmwmGpcmGpwmwmJTJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
 HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfeJuGccwmlRwmvEFRwmwmcCAiAiAiduwmwmJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
 HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfOfMGXGdCJTwmmOmOwmgOhFeEeEeEAihKwmJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
 HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfOfMGXGJTJTwmmOmOwmmaoYeEeEeEqUrCwmJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
 HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfOfMGXGtVJTwmwmwmwmuMHOAiAiAiAiIWwmJTJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
-HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfOfMGXGJTJTMCPCwmwmwmwmAiAiAiwmwmwmwmJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
+HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfOfMGXGJTJTMCPCwmwmwmwmGpcmGpwmwmwmwmJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
 HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfOfOfOfOfOfOfOfccccJTJTJTJTRUYCQswmAiAiAiwmQsYCeiJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
 HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfccOAJTJTJTJTKQeRAitxAiAiAitxAiKuAOJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
 HoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoOfccMsJTJTJTJTznyOiFwmaKAiBPwmoOyOUFJTHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHoHo
