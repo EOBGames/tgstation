@@ -70,12 +70,12 @@
 	name = "Hallway Hatch"
 	},
 /obj/item/reagent_containers/food/condiment/soysauce{
-	pixel_y = 14;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 14
 	},
 /obj/item/reagent_containers/food/condiment/bbqsauce{
-	pixel_y = 5;
-	pixel_x = -9
+	pixel_x = -9;
+	pixel_y = 5
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/kitchen)
@@ -504,8 +504,8 @@
 "cq" = (
 /obj/structure/shuttle/engine/heater{
 	desc = "Keeps the totally natural river flowing.";
-	name = "water pump";
-	dir = 1
+	dir = 1;
+	name = "water pump"
 	},
 /turf/open/water,
 /area/space)
@@ -552,8 +552,8 @@
 /area/space)
 "cO" = (
 /obj/structure/sign/poster/contraband/borg_fancy_1{
-	pixel_y = 32;
-	pixel_x = 0
+	pixel_x = 0;
+	pixel_y = 32
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
@@ -719,14 +719,6 @@
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/floor/plating/asteroid/snow,
 /area/space)
-"dF" = (
-/obj/effect/turf_decal/roadmarkings{
-	dir = 8
-	},
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 4
-	},
-/area/space)
 "dI" = (
 /obj/machinery/power/grounding_rod,
 /obj/structure/cable,
@@ -759,9 +751,6 @@
 /area/space)
 "dQ" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 1
-	},
-/obj/effect/turf_decal/roadmarkings/thick{
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -829,14 +818,14 @@
 	dir = 4
 	},
 /obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_y = 2;
+	desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table.";
 	pixel_x = 8;
-	desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table."
+	pixel_y = 2
 	},
 /obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_y = 12;
+	desc = "Salt. From space oceans, presumably. A staple of modern medicine.";
 	pixel_x = 8;
-	desc = "Salt. From space oceans, presumably. A staple of modern medicine."
+	pixel_y = 12
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/bar/atrium)
@@ -892,20 +881,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
-"eq" = (
-/obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 4
-	},
-/obj/effect/turf_decal/roadmarkings/stop{
-	dir = 1
-	},
-/obj/effect/turf_decal/roadmarkings/thick{
-	dir = 4
-	},
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 1
-	},
-/area/space)
 "es" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 9
@@ -936,12 +911,12 @@
 	name = "Hallway Hatch"
 	},
 /obj/item/reagent_containers/food/condiment/ketchup{
-	pixel_y = 4;
-	pixel_x = 10
+	pixel_x = 10;
+	pixel_y = 4
 	},
 /obj/item/reagent_containers/food/condiment/mustard{
-	pixel_y = 4;
-	pixel_x = 4
+	pixel_x = 4;
+	pixel_y = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/kitchen)
@@ -1311,12 +1286,12 @@
 	dir = 4
 	},
 /obj/item/reagent_containers/food/condiment/ketchup{
-	pixel_y = 4;
-	pixel_x = -9
+	pixel_x = -9;
+	pixel_y = 4
 	},
 /obj/item/reagent_containers/food/condiment/mustard{
-	pixel_y = 4;
-	pixel_x = -2
+	pixel_x = -2;
+	pixel_y = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/bar/atrium)
@@ -1383,9 +1358,6 @@
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
 "gL" = (
-/obj/effect/turf_decal/roadmarkings{
-	dir = 8
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -1435,14 +1407,14 @@
 	dir = 4
 	},
 /obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_y = 2;
+	desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table.";
 	pixel_x = 8;
-	desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table."
+	pixel_y = 2
 	},
 /obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_y = 12;
+	desc = "Salt. From space oceans, presumably. A staple of modern medicine.";
 	pixel_x = 8;
-	desc = "Salt. From space oceans, presumably. A staple of modern medicine."
+	pixel_y = 12
 	},
 /obj/structure/sign/poster/contraband/eat{
 	pixel_x = 32
@@ -1511,9 +1483,6 @@
 "hl" = (
 /obj/structure/railing/platform{
 	dir = 8
-	},
-/obj/item/reagent_containers/food/snacks/spaghetti/pastatomato{
-	pixel_x = 11
 	},
 /turf/open/floor/engine/hull/concrete,
 /area/space)
@@ -1697,18 +1666,6 @@
 	},
 /turf/open/floor/plating/asteroid/snow,
 /area/lawoffice)
-"ie" = (
-/obj/effect/turf_decal/trimline/blue/filled/warning,
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 1
-	},
-/obj/structure/sign/plaques/golden{
-	desc = "A golden plaque commemorating excellence in medical care. God only knows how this ended up in this medbay.";
-	name = "The Hippocratic Award for Excellence in Medicine";
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/white,
-/area/medical/medbay/central)
 "ig" = (
 /obj/structure/shipping/hyperdyne_blue{
 	dir = 4
@@ -1850,8 +1807,8 @@
 "iD" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder{
-	pixel_y = 4;
-	pixel_x = 0
+	pixel_x = 0;
+	pixel_y = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/hydroponics)
@@ -2041,9 +1998,9 @@
 	dir = 1
 	},
 /obj/machinery/door/window/southright{
+	dir = 8;
 	name = "Medical Deliveries";
-	req_access_txt = "5";
-	dir = 8
+	req_access_txt = "5"
 	},
 /obj/effect/turf_decal/delivery/white{
 	color = "#52B4E9"
@@ -2152,9 +2109,6 @@
 	},
 /area/crew_quarters/bar)
 "jK" = (
-/obj/effect/turf_decal/roadmarkings{
-	dir = 1
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -2216,9 +2170,9 @@
 /area/ai_monitored/security/armory)
 "jT" = (
 /obj/item/kirbyplants{
-	pixel_y = 11;
 	icon_state = "plant-04";
-	pixel_x = 7
+	pixel_x = 7;
+	pixel_y = 11
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/dorms)
@@ -2250,9 +2204,9 @@
 /obj/machinery/door/firedoor,
 /obj/item/paper,
 /obj/machinery/door/window/brigdoor{
+	dir = 8;
 	name = "Weapon Distribution";
-	req_access_txt = "3";
-	dir = 8
+	req_access_txt = "3"
 	},
 /obj/machinery/door/window/southleft{
 	dir = 4;
@@ -2505,13 +2459,6 @@
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
-"lg" = (
-/obj/effect/turf_decal/roadmarkings/stop,
-/obj/effect/turf_decal/roadmarkings{
-	dir = 4
-	},
-/turf/open/floor/engine/hull/concrete/asphalt,
-/area/space)
 "lh" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 9
@@ -2563,15 +2510,6 @@
 	dir = 6
 	},
 /turf/open/floor/plating/asteroid/snow,
-/area/space)
-"lp" = (
-/obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 4
-	},
-/obj/effect/turf_decal/roadmarkings/thick{
-	dir = 4
-	},
-/turf/open/floor/engine/hull/concrete/asphalt,
 /area/space)
 "lt" = (
 /turf/open/floor/plasteel,
@@ -2850,8 +2788,8 @@
 	color = "#89FFB6";
 	icon_state = "d";
 	layer = 3;
-	pixel_y = 11;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 11
 	},
 /obj/effect/decal/cleanable/crayon{
 	color = "#89FFB6";
@@ -3134,8 +3072,8 @@
 	},
 /obj/item/kitchen/rollingpin,
 /obj/item/reagent_containers/food/drinks/bottle/wine{
-	pixel_y = 4;
-	pixel_x = 16
+	pixel_x = 16;
+	pixel_y = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
@@ -3210,9 +3148,9 @@
 /obj/machinery/button/door{
 	id = "pharmacy_shutters";
 	name = "pharmacy shutters control";
+	pixel_x = -6;
 	pixel_y = -26;
-	req_access_txt = "5; 69";
-	pixel_x = -6
+	req_access_txt = "5; 69"
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/pharmacy)
@@ -3364,9 +3302,6 @@
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 4
 	},
-/obj/effect/turf_decal/roadmarkings/thick{
-	dir = 4
-	},
 /turf/open/floor/engine/hull/concrete/asphalt{
 	dir = 1
 	},
@@ -3389,8 +3324,8 @@
 /area/space)
 "oG" = (
 /obj/structure/chair/comfy/shuttle{
-	name = "tactical chair";
-	dir = 4
+	dir = 4;
+	name = "tactical chair"
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/main)
@@ -3602,14 +3537,14 @@
 	name = "Hallway Hatch"
 	},
 /obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_y = 2;
+	desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table.";
 	pixel_x = 8;
-	desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table."
+	pixel_y = 2
 	},
 /obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_y = 12;
+	desc = "Salt. From space oceans, presumably. A staple of modern medicine.";
 	pixel_x = 8;
-	desc = "Salt. From space oceans, presumably. A staple of modern medicine."
+	pixel_y = 12
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/kitchen)
@@ -3777,7 +3712,6 @@
 /area/space)
 "qv" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
-/obj/effect/turf_decal/roadmarkings/thick,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -3790,14 +3724,6 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/space)
-"qx" = (
-/obj/effect/turf_decal/roadmarkings{
-	dir = 1
-	},
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 4
-	},
 /area/space)
 "qy" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -3869,10 +3795,6 @@
 	},
 /turf/open/floor/grass,
 /area/hydroponics/garden)
-"qN" = (
-/obj/effect/turf_decal/roadmarkings,
-/turf/open/floor/engine/hull/concrete/asphalt,
-/area/space)
 "qQ" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -3881,17 +3803,6 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
-"qS" = (
-/obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 1
-	},
-/obj/effect/turf_decal/roadmarkings/thick{
-	dir = 1
-	},
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 4
-	},
 /area/space)
 "qU" = (
 /obj/structure/chair/office{
@@ -3928,8 +3839,8 @@
 	dir = 8
 	},
 /obj/machinery/conveyor{
-	id = "packageSort2";
-	dir = 8
+	dir = 8;
+	id = "packageSort2"
 	},
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -4024,18 +3935,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
-"rn" = (
-/obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 8
-	},
-/obj/effect/turf_decal/roadmarkings/stop,
-/obj/effect/turf_decal/roadmarkings/thick{
-	dir = 8
-	},
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 8
-	},
-/area/space)
 "rs" = (
 /obj/machinery/computer/cargo{
 	dir = 1
@@ -4107,8 +4006,8 @@
 	dir = 4
 	},
 /obj/item/reagent_containers/food/condiment/cooking_oil{
-	pixel_y = 6;
-	pixel_x = 7
+	pixel_x = 7;
+	pixel_y = 6
 	},
 /obj/item/toy/figure/chef{
 	pixel_x = -5
@@ -4179,14 +4078,14 @@
 "rO" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/eastright{
+	dir = 1;
 	name = "Pharmacy Desk";
-	req_access_txt = "5; 69";
-	dir = 1
+	req_access_txt = "5; 69"
 	},
 /obj/machinery/door/window/eastright{
+	dir = 2;
 	name = "Pharmacy Desk";
-	req_access_txt = "5";
-	dir = 2
+	req_access_txt = "5"
 	},
 /obj/machinery/door/firedoor,
 /obj/item/reagent_containers/glass/bottle/morphine,
@@ -4344,9 +4243,6 @@
 /turf/closed/wall,
 /area/space)
 "sy" = (
-/obj/machinery/disposal/deliveryChute{
-	dir = 1
-	},
 /obj/structure/plasticflaps,
 /obj/structure/disposalpipe/trunk,
 /turf/open/floor/plating,
@@ -4450,7 +4346,6 @@
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
 "tn" = (
-/obj/effect/turf_decal/roadmarkings,
 /obj/machinery/door/poddoor,
 /turf/open/floor/engine/hull/concrete/asphalt{
 	dir = 8
@@ -4715,9 +4610,6 @@
 	},
 /area/space)
 "uR" = (
-/obj/effect/turf_decal/roadmarkings{
-	dir = 4
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -5171,8 +5063,8 @@
 /area/space)
 "xb" = (
 /obj/structure/sign/plaques{
-	pixel_y = 16;
-	pixel_x = 16
+	pixel_x = 16;
+	pixel_y = 16
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
@@ -5222,9 +5114,9 @@
 /area/space)
 "xh" = (
 /obj/item/kirbyplants{
-	pixel_y = 11;
 	icon_state = "plant-04";
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 11
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/dorms)
@@ -5402,15 +5294,6 @@
 /obj/item/trash/pistachios,
 /turf/open/floor/plating,
 /area/space)
-"xR" = (
-/obj/effect/turf_decal/roadmarkings/stop{
-	dir = 8
-	},
-/obj/effect/turf_decal/roadmarkings,
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 8
-	},
-/area/space)
 "xS" = (
 /obj/structure/fence/corner{
 	dir = 8
@@ -5458,12 +5341,6 @@
 /obj/structure/table/wood/bar,
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
-"yd" = (
-/obj/effect/turf_decal/roadmarkings,
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 8
-	},
-/area/space)
 "ye" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/dropper,
@@ -5516,8 +5393,8 @@
 "yn" = (
 /obj/structure/table/wood,
 /obj/item/candle{
-	pixel_y = 5;
-	pixel_x = 0
+	pixel_x = 0;
+	pixel_y = 5
 	},
 /turf/open/floor/carpet/red,
 /area/crew_quarters/bar)
@@ -5965,7 +5842,6 @@
 /area/medical/medbay/central)
 "Af" = (
 /obj/structure/closet,
-/obj/item/reagent_containers/food/snacks/sosjerky,
 /obj/item/clothing/suit/hooded/wintercoat/security,
 /turf/open/floor/plasteel,
 /area/space)
@@ -5975,8 +5851,8 @@
 "Ah" = (
 /obj/structure/table/reinforced,
 /obj/machinery/reagentgrinder{
-	pixel_y = 5;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = 5
 	},
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -5985,8 +5861,8 @@
 	dir = 4
 	},
 /obj/item/reagent_containers/food/condiment/hotsauce{
-	pixel_y = 6;
-	pixel_x = 11
+	pixel_x = 11;
+	pixel_y = 6
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
@@ -6096,14 +5972,6 @@
 	},
 /turf/open/floor/plating/snowed,
 /area/crew_quarters/theatre)
-"AD" = (
-/obj/effect/turf_decal/roadmarkings{
-	dir = 1
-	},
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 1
-	},
-/area/space)
 "AG" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
@@ -6240,14 +6108,6 @@
 /obj/item/trash/can/food,
 /turf/open/water,
 /area/space)
-"Bo" = (
-/obj/effect/turf_decal/roadmarkings{
-	dir = 4
-	},
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 1
-	},
-/area/space)
 "Bq" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
@@ -6359,9 +6219,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/effect/turf_decal/roadmarkings/thick{
-	dir = 8
-	},
 /turf/open/floor/engine/hull/concrete/asphalt{
 	dir = 8
 	},
@@ -6422,7 +6279,6 @@
 "Cb" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
 /obj/item/pickaxe,
-/obj/effect/turf_decal/roadmarkings/thick,
 /turf/open/floor/engine/hull/concrete/asphalt{
 	dir = 8
 	},
@@ -6630,8 +6486,8 @@
 /area/space)
 "CP" = (
 /obj/machinery/conveyor{
-	id = "packageSort2";
-	dir = 8
+	dir = 8;
+	id = "packageSort2"
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -6649,9 +6505,6 @@
 /area/medical/pharmacy)
 "CY" = (
 /obj/structure/table/reinforced,
-/obj/item/stack/packageWrap,
-/obj/item/stack/packageWrap,
-/obj/item/stack/packageWrap,
 /obj/item/hand_labeler,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -6910,14 +6763,6 @@
 	},
 /turf/open/floor/plating/snowed,
 /area/crew_quarters/theatre)
-"Ed" = (
-/obj/effect/turf_decal/roadmarkings{
-	dir = 8
-	},
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 8
-	},
-/area/space)
 "Ei" = (
 /obj/machinery/door/window/brigdoor/security/cell{
 	id = "Cell 1";
@@ -7043,8 +6888,8 @@
 "ER" = (
 /obj/structure/statue/snow/snowman,
 /obj/item/clothing/head/soft/yellow{
-	pixel_y = 15;
-	pixel_x = -1
+	pixel_x = -1;
+	pixel_y = 15
 	},
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 1
@@ -7061,7 +6906,6 @@
 	pixel_x = -4;
 	pixel_y = 4
 	},
-/obj/effect/turf_decal/roadmarkings/thick,
 /turf/open/floor/engine/hull/concrete/asphalt,
 /area/space)
 "EW" = (
@@ -7075,8 +6919,8 @@
 	dir = 8
 	},
 /obj/machinery/door/window/southright{
-	name = "Corpse Arrivals";
-	dir = 1
+	dir = 1;
+	name = "Corpse Arrivals"
 	},
 /obj/effect/turf_decal/delivery/white{
 	color = "#52B4E9"
@@ -7174,24 +7018,9 @@
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 8
 	},
-/obj/effect/turf_decal/roadmarkings/thick{
-	dir = 8
-	},
 /turf/open/floor/engine/hull/concrete/asphalt{
 	dir = 4
 	},
-/area/space)
-"Fq" = (
-/obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 4
-	},
-/obj/effect/turf_decal/roadmarkings/thick{
-	dir = 4
-	},
-/obj/effect/turf_decal/roadmarkings/stop{
-	dir = 1
-	},
-/turf/open/floor/engine/hull/concrete/asphalt,
 /area/space)
 "Fs" = (
 /obj/structure/curtain,
@@ -7311,9 +7140,6 @@
 	pixel_x = -4;
 	pixel_y = 4
 	},
-/obj/effect/turf_decal/roadmarkings{
-	dir = 1
-	},
 /turf/open/floor/engine/hull/concrete/asphalt{
 	dir = 4
 	},
@@ -7384,12 +7210,12 @@
 	dir = 4
 	},
 /obj/item/reagent_containers/food/condiment/ketchup{
-	pixel_y = 4;
-	pixel_x = 9
+	pixel_x = 9;
+	pixel_y = 4
 	},
 /obj/item/reagent_containers/food/condiment/mustard{
-	pixel_y = 4;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/bar/atrium)
@@ -7449,8 +7275,8 @@
 	req_access_txt = "3"
 	},
 /obj/machinery/door/window/westleft{
-	name = "Warden's Desk";
-	dir = 1
+	dir = 1;
+	name = "Warden's Desk"
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/plasteel/dark,
@@ -7517,9 +7343,9 @@
 	dir = 8
 	},
 /obj/machinery/door/window/eastleft{
+	dir = 1;
 	name = "Spare Surgical Supplies";
-	req_access_txt = "5";
-	dir = 1
+	req_access_txt = "5"
 	},
 /obj/item/tank/internals/anesthetic,
 /obj/item/clothing/mask/breath/medical,
@@ -7800,9 +7626,6 @@
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 1
 	},
-/obj/effect/turf_decal/roadmarkings/thick{
-	dir = 1
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -7874,24 +7697,24 @@
 	},
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_y = 9;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 9
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_y = 5;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 5
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_y = 1;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 1
 	},
 /obj/item/reagent_containers/food/condiment/bbqsauce{
-	pixel_y = 4;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = 4
 	},
 /obj/item/reagent_containers/food/condiment/hotsauce{
-	pixel_y = 5;
-	pixel_x = 4
+	pixel_x = 4;
+	pixel_y = 5
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/bar/atrium)
@@ -7920,7 +7743,6 @@
 /turf/open/floor/plasteel/dark,
 /area/security/main)
 "HW" = (
-/obj/effect/turf_decal/roadmarkings,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -7948,7 +7770,6 @@
 /area/space)
 "Ic" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
-/obj/effect/turf_decal/roadmarkings/thick,
 /obj/machinery/door/poddoor,
 /turf/open/floor/engine/hull/concrete/asphalt{
 	dir = 8
@@ -8050,9 +7871,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/effect/turf_decal/roadmarkings/thick{
-	dir = 4
-	},
 /turf/open/floor/engine/hull/concrete/asphalt,
 /area/space)
 "IF" = (
@@ -8081,9 +7899,6 @@
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "IH" = (
-/obj/effect/turf_decal/roadmarkings{
-	dir = 1
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -8160,12 +7975,6 @@
 /area/space)
 "IT" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 1
-	},
-/obj/effect/turf_decal/roadmarkings/stop{
-	dir = 8
-	},
-/obj/effect/turf_decal/roadmarkings/thick{
 	dir = 1
 	},
 /turf/open/floor/engine/hull/concrete/asphalt{
@@ -8361,17 +8170,6 @@
 	},
 /turf/open/floor/engine/hull/concrete,
 /area/space)
-"JH" = (
-/obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 8
-	},
-/obj/effect/turf_decal/roadmarkings/thick{
-	dir = 8
-	},
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 8
-	},
-/area/space)
 "JI" = (
 /obj/structure/bed/roller,
 /obj/item/bedsheet/medical,
@@ -8412,8 +8210,8 @@
 /area/space)
 "JQ" = (
 /obj/machinery/conveyor{
-	id = "packageSort2";
-	dir = 10
+	dir = 10;
+	id = "packageSort2"
 	},
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/effect/turf_decal/stripes/corner{
@@ -8554,9 +8352,6 @@
 /area/space)
 "Kv" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 1
-	},
-/obj/effect/turf_decal/roadmarkings/thick{
 	dir = 1
 	},
 /obj/machinery/door/poddoor,
@@ -8919,7 +8714,6 @@
 /obj/item/storage/fancy/nugget_box,
 /obj/item/storage/fancy/nugget_box,
 /obj/item/book/manual/chef_recipes,
-/obj/item/stack/packageWrap,
 /obj/item/hand_labeler,
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
@@ -9068,9 +8862,9 @@
 /obj/structure/table/glass,
 /obj/machinery/vending/wallmed{
 	name = "Emergency NanoMed";
+	pixel_x = -1;
 	pixel_y = 26;
-	use_power = 0;
-	pixel_x = -1
+	use_power = 0
 	},
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -9093,7 +8887,6 @@
 /turf/open/floor/plating,
 /area/quartermaster/sorting)
 "MI" = (
-/obj/effect/turf_decal/roadmarkings,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -9380,8 +9173,8 @@
 	dir = 4
 	},
 /obj/item/storage/box/ingredients/wildcard{
-	pixel_y = 5;
-	pixel_x = 0
+	pixel_x = 0;
+	pixel_y = 5
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
@@ -9559,7 +9352,6 @@
 /area/space)
 "OF" = (
 /obj/effect/turf_decal/trimline/yellow/corner,
-/obj/effect/turf_decal/roadmarkings/corner/thick,
 /turf/open/floor/engine/hull/concrete/asphalt,
 /area/space)
 "OG" = (
@@ -9712,8 +9504,8 @@
 /area/space)
 "Py" = (
 /obj/structure/chair/comfy/shuttle{
-	name = "tactical chair";
-	dir = 4
+	dir = 4;
+	name = "tactical chair"
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -9813,13 +9605,13 @@
 	name = "Brig Front Blast door"
 	},
 /obj/machinery/door/window/brigdoor/southright{
+	dir = 1;
 	name = "Security Desk";
-	req_access_txt = "63";
-	dir = 1
+	req_access_txt = "63"
 	},
 /obj/machinery/door/window/northright{
-	name = "Security Desk";
-	dir = 2
+	dir = 2;
+	name = "Security Desk"
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
@@ -9939,7 +9731,6 @@
 /area/crew_quarters/bar)
 "Qz" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
-/obj/effect/turf_decal/roadmarkings/thick,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -9989,8 +9780,8 @@
 "QJ" = (
 /obj/structure/table/wood/bar,
 /obj/item/flashlight/lamp/green{
-	pixel_y = 4;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = 4
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
@@ -10222,7 +10013,6 @@
 /area/lawoffice)
 "Sg" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
-/obj/effect/turf_decal/roadmarkings/thick,
 /turf/open/floor/engine/hull/concrete/asphalt{
 	dir = 8
 	},
@@ -10323,9 +10113,6 @@
 /area/hydroponics/garden)
 "SD" = (
 /obj/item/clothing/head/cone,
-/obj/effect/turf_decal/roadmarkings{
-	dir = 8
-	},
 /turf/open/floor/engine/hull/concrete/asphalt{
 	dir = 4
 	},
@@ -10362,8 +10149,8 @@
 /area/hydroponics/garden)
 "SM" = (
 /obj/machinery/conveyor{
-	id = "packageSort2";
-	dir = 8
+	dir = 8;
+	id = "packageSort2"
 	},
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/effect/turf_decal/stripes/line{
@@ -10553,7 +10340,6 @@
 /area/security/brig)
 "TE" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
-/obj/effect/turf_decal/roadmarkings/thick,
 /turf/open/floor/engine/hull/concrete/asphalt,
 /area/space)
 "TI" = (
@@ -10594,17 +10380,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
-"TP" = (
-/obj/effect/turf_decal/roadmarkings{
-	dir = 8
-	},
-/obj/effect/turf_decal/roadmarkings/stop{
-	dir = 1
-	},
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 8
-	},
-/area/space)
 "TT" = (
 /obj/structure/shipping/green{
 	dir = 1
@@ -10613,15 +10388,15 @@
 	color = "#89FFB6";
 	icon_state = "c";
 	layer = 3;
-	pixel_y = 11;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 11
 	},
 /obj/effect/decal/cleanable/crayon{
 	color = "#89FFB6";
 	icon_state = "o";
 	layer = 3;
-	pixel_y = 11;
-	pixel_x = 4
+	pixel_x = 4;
+	pixel_y = 11
 	},
 /obj/effect/decal/cleanable/crayon{
 	color = "#89FFB6";
@@ -10648,8 +10423,8 @@
 	color = "#89FFB6";
 	icon_state = "f";
 	layer = 3;
-	pixel_y = -3;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = -3
 	},
 /obj/effect/decal/cleanable/crayon{
 	color = "#89FFB6";
@@ -10682,9 +10457,6 @@
 /area/lawoffice)
 "Ub" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 1
-	},
-/obj/effect/turf_decal/roadmarkings/thick{
 	dir = 1
 	},
 /turf/open/floor/engine/hull/concrete/asphalt{
@@ -10762,10 +10534,10 @@
 /area/space)
 "Uu" = (
 /obj/machinery/requests_console{
-	pixel_y = 30;
 	department = "Bar";
 	departmentType = 2;
 	pixel_x = 30;
+	pixel_y = 30;
 	receive_ore_updates = 1
 	},
 /turf/open/floor/wood,
@@ -11025,8 +10797,8 @@
 	pixel_x = 0
 	},
 /obj/item/gun/ballistic/shotgun/doublebarrel{
-	pixel_y = 31;
-	pixel_x = 16
+	pixel_x = 16;
+	pixel_y = 31
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
@@ -11072,9 +10844,6 @@
 /turf/open/floor/wood,
 /area/crew_quarters/dorms)
 "VP" = (
-/obj/effect/turf_decal/roadmarkings{
-	dir = 1
-	},
 /obj/machinery/door/poddoor,
 /turf/open/floor/engine/hull/concrete/asphalt{
 	dir = 4
@@ -11116,9 +10885,6 @@
 	dir = 1
 	},
 /obj/item/clothing/head/cone,
-/obj/effect/turf_decal/roadmarkings/thick{
-	dir = 1
-	},
 /turf/open/floor/engine/hull/concrete/asphalt{
 	dir = 4
 	},
@@ -11150,38 +10916,6 @@
 /obj/structure/table,
 /obj/item/stack/wrapping_paper,
 /obj/item/stack/wrapping_paper,
-/obj/item/stack/packageWrap{
-	pixel_x = 2;
-	pixel_y = -3
-	},
-/obj/item/stack/packageWrap{
-	pixel_x = 2;
-	pixel_y = -3
-	},
-/obj/item/stack/packageWrap{
-	pixel_x = 2;
-	pixel_y = -3
-	},
-/obj/item/stack/packageWrap{
-	pixel_x = 2;
-	pixel_y = -3
-	},
-/obj/item/stack/packageWrap{
-	pixel_x = 2;
-	pixel_y = -3
-	},
-/obj/item/stack/packageWrap{
-	pixel_x = 2;
-	pixel_y = -3
-	},
-/obj/item/stack/packageWrap{
-	pixel_x = 2;
-	pixel_y = -3
-	},
-/obj/item/stack/packageWrap{
-	pixel_x = 2;
-	pixel_y = -3
-	},
 /turf/open/floor/plasteel/dark,
 /area/quartermaster/sorting)
 "Wr" = (
@@ -11210,12 +10944,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
-"Wz" = (
-/obj/effect/turf_decal/roadmarkings{
-	dir = 4
-	},
-/turf/open/floor/engine/hull/concrete/asphalt,
-/area/space)
 "WC" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Mailroom Maintenance";
@@ -11290,8 +11018,8 @@
 	department = "Chemistry";
 	departmentType = 2;
 	pixel_x = -30;
-	receive_ore_updates = 1;
-	pixel_y = -30
+	pixel_y = -30;
+	receive_ore_updates = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/pharmacy)
@@ -11698,17 +11426,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/white,
 /area/space)
-"Yy" = (
-/obj/effect/turf_decal/roadmarkings/stop{
-	dir = 1
-	},
-/obj/effect/turf_decal/roadmarkings{
-	dir = 8
-	},
-/turf/open/floor/engine/hull/concrete/asphalt{
-	dir = 4
-	},
-/area/space)
 "YB" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -11781,17 +11498,11 @@
 /obj/effect/turf_decal/trimline/yellow/corner{
 	dir = 4
 	},
-/obj/effect/turf_decal/roadmarkings/corner/thick{
-	dir = 4
-	},
 /turf/open/floor/engine/hull/concrete/asphalt{
 	dir = 1
 	},
 /area/space)
 "YY" = (
-/obj/machinery/computer/bounty{
-	dir = 1
-	},
 /turf/open/floor/plasteel/dark,
 /area/quartermaster/qm)
 "Za" = (
@@ -17669,92 +17380,92 @@ sQ
 rd
 BN
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-rn
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
-JH
+sQ
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
-JH
+sQ
 Fp
 XD
 XD
@@ -17925,94 +17636,94 @@ oO
 jz
 rd
 uR
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-lg
 Rw
 jz
 Rw
 jz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
-Wz
-Bo
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
+jz
+Rw
 XD
 XD
 XD
@@ -18183,93 +17894,93 @@ wz
 rd
 gL
 SD
-TP
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
+wz
+ab
+wz
 ab
 wz
 ab
 wz
-Yy
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
-Ed
-dF
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
+wz
+ab
 XD
 XD
 XD
@@ -18440,92 +18151,92 @@ qz
 rd
 IE
 oy
-Fq
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 YW
 jz
 Rw
 OF
-eq
-lp
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
-lp
+qz
 oy
-lp
+qz
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
 oy
-lp
+qz
+oy
+qz
 oy
 XD
 XD
@@ -18723,8 +18434,8 @@ DS
 DS
 SG
 IT
-xR
-qx
+wz
+ab
 Sg
 mg
 DS
@@ -18980,8 +18691,8 @@ Xe
 Xe
 BH
 Ub
-qN
-AD
+jz
+Rw
 TE
 lI
 Xe
@@ -19236,9 +18947,9 @@ Xe
 Xe
 Xe
 BH
-qS
-yd
-qx
+IT
+wz
+ab
 Sg
 lI
 Xe
@@ -19494,8 +19205,8 @@ nt
 Xe
 BH
 Ub
-qN
-AD
+jz
+Rw
 TE
 lI
 Xe
@@ -19750,9 +19461,9 @@ uO
 ok
 Xe
 BH
-qS
-yd
-qx
+IT
+wz
+ab
 Sg
 lI
 Xe
@@ -20008,8 +19719,8 @@ Hi
 Xe
 BH
 Ub
-qN
-AD
+jz
+Rw
 TE
 lI
 Xe
@@ -20264,9 +19975,9 @@ Th
 Qr
 Xe
 BH
-qS
-yd
-qx
+IT
+wz
+ab
 Sg
 lI
 Xe
@@ -20522,8 +20233,8 @@ Qr
 Xe
 BH
 Ub
-qN
-AD
+jz
+Rw
 TE
 lI
 Xe
@@ -29441,7 +29152,7 @@ XD
 XD
 XD
 XD
-XD
+Qb
 XD
 XD
 XD
@@ -50713,7 +50424,7 @@ YB
 gz
 vY
 Zi
-ie
+LG
 OA
 Mo
 OA
@@ -72119,8 +71830,8 @@ XD
 XD
 XD
 Ub
-qN
-AD
+jz
+Rw
 TE
 XD
 XD
@@ -72375,9 +72086,9 @@ XD
 Yq
 dB
 Yq
-qS
-yd
-qx
+IT
+wz
+ab
 Sg
 Yq
 aU
@@ -73146,9 +72857,9 @@ Ca
 Ca
 Yq
 AT
-qS
-yd
-qx
+IT
+wz
+ab
 Sg
 oN
 Yq
@@ -73404,8 +73115,8 @@ Ca
 Ca
 KF
 Ub
-qN
-AD
+jz
+Rw
 TE
 Ih
 Ca
@@ -73660,9 +73371,9 @@ Ca
 Ca
 Ca
 KF
-qS
-yd
-qx
+IT
+wz
+ab
 Sg
 Ih
 Ca
@@ -73918,8 +73629,8 @@ Ca
 Yq
 AT
 Ub
-qN
-AD
+jz
+Rw
 TE
 oN
 Yq
@@ -74174,9 +73885,9 @@ Ca
 Ca
 Ca
 KF
-qS
-yd
-qx
+IT
+wz
+ab
 Sg
 Ih
 Ca
@@ -74432,8 +74143,8 @@ Ca
 Ca
 KF
 Ub
-qN
-AD
+jz
+Rw
 TE
 Ih
 Ca
@@ -74689,8 +74400,8 @@ Ca
 Yq
 Oy
 Wf
-yd
-qx
+wz
+ab
 Sg
 oN
 Yq
@@ -74946,8 +74657,8 @@ Ca
 Ca
 KF
 Ub
-qN
-AD
+jz
+Rw
 EV
 Ih
 Ca
@@ -75202,8 +74913,8 @@ Ca
 Ca
 mO
 KF
-qS
-yd
+IT
+wz
 FM
 Cb
 Ih
@@ -75460,8 +75171,8 @@ Ca
 nm
 KF
 Ub
-qN
-AD
+jz
+Rw
 TE
 Ih
 Ca
@@ -75716,9 +75427,9 @@ Ca
 Ca
 Ca
 KF
-qS
-yd
-qx
+IT
+wz
+ab
 Sg
 Ih
 Ca
@@ -75974,8 +75685,8 @@ Ca
 Yq
 Oy
 Ub
-qN
-AD
+jz
+Rw
 TE
 oN
 Yq
@@ -76230,9 +75941,9 @@ Ca
 Ca
 Ca
 KF
-qS
-yd
-qx
+IT
+wz
+ab
 Sg
 Ih
 Ca
@@ -76488,8 +76199,8 @@ Ca
 Ca
 KF
 Ub
-qN
-AD
+jz
+Rw
 TE
 Ih
 Ca
@@ -76744,9 +76455,9 @@ Ca
 Ca
 Yq
 Oy
-qS
-yd
-qx
+IT
+wz
+ab
 Sg
 oN
 Yq
@@ -77002,8 +76713,8 @@ Ca
 Ca
 KF
 Ub
-qN
-AD
+jz
+Rw
 TE
 Ih
 Ca
