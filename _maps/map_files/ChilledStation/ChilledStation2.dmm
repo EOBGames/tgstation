@@ -1798,10 +1798,6 @@
 /obj/structure/rack,
 /turf/open/floor/plating,
 /area/space)
-"aeT" = (
-/obj/machinery/vending/cola/random,
-/turf/open/floor/plasteel/dark,
-/area/hallway/primary/central)
 "aeU" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
@@ -2050,7 +2046,6 @@
 /turf/open/floor/plating,
 /area/hydroponics)
 "afw" = (
-/obj/machinery/vending/snack/random,
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/central)
 "afx" = (
@@ -2596,10 +2591,6 @@
 /turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "agZ" = (
-/obj/item/reagent_containers/food/snacks/grown/wheat,
-/obj/item/reagent_containers/food/snacks/grown/watermelon,
-/obj/item/reagent_containers/food/snacks/grown/citrus/orange,
-/obj/item/reagent_containers/food/snacks/grown/grapes,
 /obj/structure/table,
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/central)
@@ -2743,16 +2734,6 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
-"aht" = (
-/obj/machinery/vending/snack/random,
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
 /area/space)
 "ahu" = (
 /obj/effect/turf_decal/weather/snow/corner{
@@ -4329,10 +4310,6 @@
 /area/space)
 "amm" = (
 /obj/structure/table/wood,
-/obj/item/reagent_containers/food/snacks/cheesewedge{
-	pixel_x = -3;
-	pixel_y = 7
-	},
 /obj/item/food/baguette{
 	pixel_x = 4
 	},
@@ -4431,15 +4408,6 @@
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/bar/atrium)
-"amC" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "kitchen";
-	name = "Kitchen Shutters"
-	},
-/obj/item/reagent_containers/food/snacks/pie/cream,
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/kitchen)
 "amD" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -4574,11 +4542,6 @@
 /obj/item/clothing/shoes/clown_shoes,
 /obj/item/clothing/under/rank/civilian/clown,
 /obj/item/clothing/mask/gas/clown_hat,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
-/obj/item/reagent_containers/food/snacks/grown/banana,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "anb" = (
@@ -4805,7 +4768,6 @@
 	dir = 8
 	},
 /obj/structure/rack,
-/obj/item/reagent_containers/food/snacks/dough,
 /turf/open/floor/plasteel/kitchen_coldroom,
 /area/crew_quarters/kitchen/coldroom)
 "anJ" = (
@@ -5968,7 +5930,6 @@
 /area/space)
 "ara" = (
 /obj/item/assembly/mousetrap,
-/obj/item/reagent_containers/food/snacks/deadmouse,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating,
 /area/space)
@@ -13151,20 +13112,6 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/plasteel/dark,
 /area/space)
-"aVE" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/machinery/vending/snack/random,
-/turf/open/floor/plasteel/dark,
-/area/space)
 "aVF" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -13176,7 +13123,6 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/machinery/vending/cola/random,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "aVG" = (
@@ -16677,10 +16623,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/space)
-"gYE" = (
-/obj/machinery/vending/cola/random,
-/turf/open/floor/plasteel,
-/area/library)
 "hct" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 6
@@ -16722,20 +16664,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
 /turf/open/floor/plating,
 /area/engine/atmos)
-"hiH" = (
-/obj/machinery/vending/snack/random,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/hallway/primary/central)
 "hiQ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -17095,7 +17023,6 @@
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 9
 	},
-/obj/item/reagent_containers/food/snacks/cheesewedge,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "irn" = (
@@ -17383,15 +17310,6 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/grass,
 /area/space)
-"jdr" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/machinery/vending/snack/random,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel,
-/area/space)
 "jhp" = (
 /obj/machinery/computer/upload/ai{
 	dir = 8
@@ -17659,7 +17577,6 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "kds" = (
-/obj/machinery/vending/cola/random,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -17704,10 +17621,6 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/space)
-"kfW" = (
-/obj/item/reagent_containers/food/snacks/cheesewedge,
-/turf/open/floor/carpet/red,
 /area/space)
 "kgd" = (
 /obj/structure/table/wood,
@@ -18673,10 +18586,6 @@
 /mob/living/simple_animal/mouse/gray,
 /turf/open/floor/plasteel/dark,
 /area/space)
-"mCg" = (
-/obj/machinery/vending/snack/random,
-/turf/open/floor/plasteel,
-/area/library)
 "mDM" = (
 /obj/machinery/space_heater,
 /obj/effect/turf_decal/stripes/line{
@@ -19414,25 +19323,6 @@
 /turf/open/floor/plasteel/dark/corner{
 	dir = 1
 	},
-/area/space)
-"oPG" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/snacks/cracker{
-	name = "communion wafer"
-	},
-/obj/item/reagent_containers/food/snacks/cracker{
-	name = "communion wafer";
-	pixel_y = 2
-	},
-/obj/item/reagent_containers/food/snacks/cracker{
-	name = "communion wafer";
-	pixel_y = 4
-	},
-/obj/item/reagent_containers/food/snacks/cracker{
-	name = "communion wafer";
-	pixel_y = 6
-	},
-/turf/open/floor/plasteel/dark,
 /area/space)
 "oTr" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -29690,7 +29580,7 @@ anY
 anY
 anY
 anY
-anY
+aEi
 anY
 anY
 anY
@@ -113095,7 +112985,7 @@ aLd
 aLd
 aLd
 adG
-aeT
+afw
 afw
 aTQ
 aTQ
@@ -115173,7 +115063,7 @@ aIQ
 aIQ
 aIQ
 aIQ
-amC
+aJy
 aJy
 aJy
 aJy
@@ -116372,7 +116262,7 @@ rGc
 rGC
 akx
 ayf
-jdr
+fDy
 xyv
 qvq
 tlx
@@ -121014,7 +120904,7 @@ mtJ
 akx
 ayf
 kKF
-kfW
+uDK
 aLd
 mtf
 umQ
@@ -121585,7 +121475,7 @@ aWm
 aWm
 aWm
 awc
-hiH
+kds
 aYU
 aYU
 aYU
@@ -125442,7 +125332,7 @@ agp
 agH
 agO
 amG
-aht
+aHm
 ahM
 agm
 aLd
@@ -162274,7 +162164,7 @@ xVI
 xVI
 xVI
 yks
-oPG
+xVI
 kyn
 moC
 yks
@@ -173739,7 +173629,7 @@ akx
 akx
 akx
 aVp
-aVE
+aVF
 aVB
 aWy
 aWV
@@ -183528,7 +183418,7 @@ bzA
 bzA
 bzA
 jNK
-mCg
+bzA
 axJ
 sGO
 sGO
@@ -183785,7 +183675,7 @@ bzA
 bzA
 bzA
 jmq
-gYE
+bzA
 axJ
 aEi
 aEi
