@@ -869,9 +869,9 @@
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
 "em" = (
-/obj/machinery/vending/snack/random,
-/turf/open/floor/wood,
-/area/crew_quarters/dorms)
+/obj/item/clothing/under/dress/blacktango,
+/turf/open/space/basic,
+/area/space)
 "en" = (
 /turf/closed/wall/ice,
 /area/maintenance/port/fore)
@@ -4569,7 +4569,6 @@
 	name = "Serving Hatch"
 	},
 /obj/machinery/door/firedoor,
-/obj/item/reagent_containers/food/snacks/pie/cream,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/kitchen)
 "uD" = (
@@ -6310,10 +6309,6 @@
 /area/space)
 "Ci" = (
 /obj/structure/table/glass,
-/obj/item/reagent_containers/food/snacks/grown/wheat,
-/obj/item/reagent_containers/food/snacks/grown/watermelon,
-/obj/item/reagent_containers/food/snacks/grown/citrus/orange,
-/obj/item/reagent_containers/food/snacks/grown/grapes,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "Cj" = (
@@ -8577,7 +8572,6 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/obj/item/reagent_containers/food/snacks/mint,
 /obj/item/book/manual/chef_recipes{
 	pixel_y = 2
 	},
@@ -9746,10 +9740,6 @@
 	},
 /turf/open/floor/grass,
 /area/hydroponics/garden)
-"QC" = (
-/obj/machinery/vending/cola/random,
-/turf/open/floor/wood,
-/area/crew_quarters/dorms)
 "QD" = (
 /obj/structure/flora/tree/pine,
 /turf/open/floor/plating/asteroid/snow,
@@ -11224,16 +11214,6 @@
 /area/space)
 "Xz" = (
 /obj/structure/table,
-/obj/item/reagent_containers/food/snacks/grown/wheat,
-/obj/item/reagent_containers/food/snacks/grown/watermelon,
-/obj/item/reagent_containers/food/snacks/grown/citrus/orange,
-/obj/item/reagent_containers/food/snacks/grown/grapes,
-/obj/item/reagent_containers/food/snacks/grown/cocoapod,
-/obj/item/reagent_containers/food/snacks/grown/apple,
-/obj/item/reagent_containers/food/snacks/grown/chili,
-/obj/item/reagent_containers/food/snacks/grown/cherries,
-/obj/item/reagent_containers/food/snacks/grown/soybeans,
-/obj/item/reagent_containers/food/snacks/grown/citrus/lime,
 /turf/open/floor/cobblestone/side,
 /area/hydroponics/garden)
 "XD" = (
@@ -20180,7 +20160,7 @@ XD
 XD
 XD
 XD
-XD
+em
 XD
 XD
 XD
@@ -56061,8 +56041,8 @@ tD
 GN
 yA
 ck
-em
-QC
+Jp
+Jp
 sN
 Jp
 Jp
