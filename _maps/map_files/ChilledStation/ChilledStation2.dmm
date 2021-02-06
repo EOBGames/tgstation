@@ -1050,28 +1050,13 @@
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
-"adw" = (
-/obj/structure/closet/secure{
-	icon_state = "tac";
-	name = "implants locker"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
 "ady" = (
 /obj/structure/closet/secure_closet/contraband/armory{
 	icon_state = "tac"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
-"adz" = (
-/obj/structure/closet/secure_closet/lethalshots,
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
 "adA" = (
-/obj/structure/closet/secure{
-	icon_state = "tac";
-	name = "reflector armour locker"
-	},
 /obj/item/clothing/suit/hooded/ablative,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
@@ -16466,10 +16451,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
-"gzZ" = (
-/obj/machinery/vending/boozeomat/pubby_captain,
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/heads/captain)
 "gDn" = (
 /obj/structure/table/wood,
 /obj/structure/window/reinforced/spawner/north,
@@ -22720,10 +22701,6 @@
 /obj/item/bedsheet/captain,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/captain/private)
-"xQQ" = (
-/mob/living/carbon/monkey/punpun,
-/turf/open/floor/carpet/red,
-/area/space)
 "xRU" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L4"
@@ -29837,7 +29814,7 @@ anY
 anY
 anY
 anY
-anY
+aEi
 anY
 anY
 anY
@@ -59795,7 +59772,7 @@ bwL
 aLd
 aLd
 jbi
-xQQ
+uDK
 uDK
 oEQ
 aLd
@@ -105274,7 +105251,7 @@ aIw
 acB
 awQ
 aWZ
-adw
+aQq
 aQq
 aea
 aQq
@@ -105788,7 +105765,7 @@ azT
 azT
 acP
 aWZ
-adz
+aQq
 aQq
 aee
 aQq
@@ -191131,7 +191108,7 @@ kuM
 lbR
 xcb
 wYl
-gzZ
+pIC
 kuM
 kuM
 kuM

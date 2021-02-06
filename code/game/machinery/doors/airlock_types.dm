@@ -92,6 +92,11 @@
 	name = "large virology airlock"
 	icon = 'icons/obj/doors/airlocks/station/large/virology.dmi'
 
+/obj/machinery/door/airlock/exploration
+	name = "exploration airlock"
+	icon = 'icons/obj/doors/airlocks/station/exploration.dmi'
+	assemblytype = /obj/structure/door_assembly/door_assembly_explo
+
 //////////////////////////////////
 /*
 	Station Airlocks Glass
@@ -220,6 +225,10 @@
 	opacity = FALSE
 	glass = TRUE
 	normal_integrity = 200
+
+/obj/machinery/door/airlock/exploration/glass
+	opacity = FALSE
+	glass = TRUE
 
 //////////////////////////////////
 /*

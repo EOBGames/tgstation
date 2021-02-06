@@ -770,7 +770,7 @@
 /obj/structure/railing/platform/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "dW" = (
 /obj/structure/closet/secure_closet/brig{
@@ -888,7 +888,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 5
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "eu" = (
 /obj/structure/cable,
@@ -1012,7 +1012,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 6
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "fd" = (
 /obj/structure/railing/platform{
@@ -1166,7 +1166,7 @@
 "fI" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/power/grounding_rod,
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "fK" = (
 /obj/machinery/computer/crew{
@@ -1730,20 +1730,6 @@
 "ip" = (
 /turf/closed/wall/r_wall,
 /area/security/warden)
-"iq" = (
-/obj/structure/closet/secure_closet/lethalshots,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
 "ir" = (
 /obj/structure/mineral_door/wood,
 /turf/open/floor/wood,
@@ -2298,7 +2284,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 9
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "kv" = (
 /obj/structure/table/reinforced,
@@ -2339,7 +2325,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 5
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "kC" = (
 /obj/structure/shipping/red{
@@ -3755,7 +3741,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 10
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "qH" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner{
@@ -3770,10 +3756,6 @@
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
 "qK" = (
-/obj/structure/closet/secure{
-	icon_state = "tac";
-	name = "implants locker"
-	},
 /obj/item/storage/box/chemimp,
 /obj/item/storage/box/trackimp,
 /obj/item/storage/lockbox/loyalty,
@@ -3825,7 +3807,7 @@
 /obj/structure/railing/platform/corner{
 	dir = 8
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "qZ" = (
 /obj/machinery/door/airlock/security/glass{
@@ -4173,7 +4155,7 @@
 /obj/structure/railing/platform{
 	dir = 8
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "sm" = (
 /obj/machinery/door/airlock/grunge{
@@ -5207,7 +5189,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 8
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "xB" = (
 /obj/structure/table,
@@ -5460,7 +5442,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 8
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "yE" = (
 /obj/effect/turf_decal/tile/green{
@@ -5716,10 +5698,6 @@
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
 "zM" = (
-/obj/structure/closet/secure{
-	icon_state = "tac";
-	name = "reflector armour locker"
-	},
 /obj/item/clothing/suit/hooded/ablative,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -6101,7 +6079,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 6
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "Bm" = (
 /obj/item/trash/can/food,
@@ -6323,7 +6301,7 @@
 /area/hydroponics)
 "Cm" = (
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "Cn" = (
 /obj/structure/chair/office{
@@ -6699,7 +6677,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "DR" = (
 /turf/open/floor/plasteel/freezer,
@@ -7287,9 +7265,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/space)
-"Gt" = (
-/turf/open/floor/plating/ice/temperate,
-/area/space)
 "Gu" = (
 /obj/structure/railing/platform{
 	dir = 4
@@ -7404,7 +7379,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 9
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "GU" = (
 /obj/effect/turf_decal/tile/red{
@@ -7529,7 +7504,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 1
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "Hu" = (
 /obj/effect/turf_decal/trimline/brown/warning{
@@ -8596,7 +8571,7 @@
 "Lx" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/portable_atmospherics/pump,
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "Lz" = (
 /obj/structure/railing{
@@ -9469,7 +9444,7 @@
 "Pm" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/portable_atmospherics/canister/air,
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "Pn" = (
 /obj/structure/lattice/catwalk,
@@ -9653,7 +9628,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 5
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "Qi" = (
 /obj/machinery/stasis,
@@ -10611,7 +10586,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "US" = (
 /obj/effect/turf_decal/trimline/brown/warning{
@@ -10821,7 +10796,7 @@
 "VK" = (
 /obj/structure/cable,
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "VL" = (
 /turf/open/floor/plasteel/stairs{
@@ -11169,7 +11144,7 @@
 /obj/structure/railing/platform{
 	dir = 4
 	},
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "Xu" = (
 /obj/structure/table/glass,
@@ -11638,7 +11613,7 @@
 "ZP" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable,
-/turf/open/floor/plating/ice/temperate,
+/turf/open/space/basic,
 /area/space)
 "ZQ" = (
 /obj/machinery/door/airlock/security/glass{
@@ -29134,7 +29109,7 @@ XD
 XD
 Qb
 XD
-XD
+Qb
 XD
 XD
 XD
@@ -46969,7 +46944,7 @@ Pq
 GG
 xP
 RM
-iq
+VG
 wh
 CM
 wh
@@ -60362,7 +60337,7 @@ kt
 qG
 ug
 kt
-Gt
+XD
 xz
 ZP
 Yq
@@ -63443,8 +63418,8 @@ XD
 Ca
 cb
 Qh
-Gt
-Gt
+XD
+XD
 eZ
 Qv
 Bl
