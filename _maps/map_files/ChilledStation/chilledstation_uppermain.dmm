@@ -10,30 +10,25 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/plasteel/stairs{
-	dir = 1
-	},
+/turf/open/space/basic,
 /area/space)
 "aB" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "aN" = (
 /obj/structure/chair/office{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
-/area/space)
-"be" = (
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron,
 /area/space)
 "bi" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 10
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "bt" = (
 /turf/closed/wall/r_wall,
@@ -42,7 +37,7 @@
 /obj/structure/chair/office{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "cj" = (
 /obj/effect/spawner/structure/window,
@@ -53,17 +48,17 @@
 /area/space)
 "de" = (
 /obj/machinery/shuttle_manipulator,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "eS" = (
 /obj/structure/closet,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "ff" = (
 /obj/structure/chair/comfy/shuttle{
 	desc = "A comfortable seat, perfect for staying cozy during long broadcasts.";
-	name = "radio chair";
-	dir = 1
+	dir = 1;
+	name = "radio chair"
 	},
 /turf/open/floor/wood,
 /area/space)
@@ -77,7 +72,7 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 6
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "gM" = (
 /obj/structure/table/wood,
@@ -116,18 +111,18 @@
 	pixel_x = -32;
 	pixel_y = 27
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "hZ" = (
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "ix" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 6
 	},
 /obj/machinery/disposal/bin,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "iF" = (
 /obj/structure/railing{
@@ -142,8 +137,8 @@
 	pixel_y = 4
 	},
 /obj/item/radio/headset{
-	pixel_y = 2;
-	pixel_x = -1
+	pixel_x = -1;
+	pixel_y = 2
 	},
 /obj/item/radio/headset{
 	pixel_x = 2
@@ -154,20 +149,11 @@
 	},
 /turf/open/floor/wood,
 /area/space)
-"jb" = (
-/turf/open/floor/plasteel/stairs,
-/area/space)
-"jf" = (
-/obj/structure/sign/directions/live{
-	pixel_x = -32
-	},
-/turf/open/floor/wood,
-/area/space)
 "jv" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "jN" = (
 /obj/structure/window/paperframe,
@@ -180,13 +166,13 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 6
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "kP" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 5
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "lB" = (
 /obj/structure/mineral_door/paperframe{
@@ -196,12 +182,9 @@
 /area/space)
 "lY" = (
 /obj/structure/table/wood,
-/obj/structure/sign/directions/live{
-	pixel_y = -3
-	},
 /obj/item/phone{
-	pixel_y = 5;
-	pixel_x = 1
+	pixel_x = 1;
+	pixel_y = 5
 	},
 /turf/open/floor/wood,
 /area/space)
@@ -209,7 +192,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "nN" = (
 /obj/structure/grille,
@@ -221,7 +204,7 @@
 /obj/machinery/microwave{
 	pixel_y = 5
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "oq" = (
 /obj/structure/table/wood,
@@ -250,19 +233,19 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 10
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "rc" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "rz" = (
 /obj/structure/closet/crate{
 	name = "footlocker"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "rP" = (
 /obj/structure/chair/comfy/shuttle{
@@ -284,20 +267,20 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "te" = (
 /obj/machinery/computer/telecomms/monitor{
 	dir = 4;
 	network = "tcommsat"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "tE" = (
 /obj/structure/table/wood,
 /obj/item/candle{
-	pixel_y = 5;
-	pixel_x = 0
+	pixel_x = 0;
+	pixel_y = 5
 	},
 /turf/open/floor/wood,
 /area/space)
@@ -318,7 +301,7 @@
 /turf/closed/wall/ice,
 /area/space)
 "vy" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "xt" = (
 /turf/open/floor/carpet/royalblack,
@@ -328,13 +311,13 @@
 	dir = 5
 	},
 /obj/machinery/suit_storage_unit/hos,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "xL" = (
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "yB" = (
 /obj/structure/railing,
@@ -350,13 +333,13 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "Ac" = (
 /obj/machinery/door/airlock/large/command/glass{
 	name = "Shuttle Control"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "Am" = (
 /obj/structure/railing{
@@ -368,7 +351,7 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 9
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "CA" = (
 /obj/structure/chair/office{
@@ -385,7 +368,7 @@
 "Dc" = (
 /obj/structure/table/reinforced,
 /obj/item/phone,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "DB" = (
 /obj/structure/chair/wood,
@@ -393,7 +376,7 @@
 /area/space)
 "Ek" = (
 /obj/structure/table/reinforced,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "Ew" = (
 /turf/open/openspace,
@@ -402,7 +385,7 @@
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "FP" = (
 /obj/machinery/door/airlock/large/glass{
@@ -411,10 +394,7 @@
 /turf/open/floor/wood,
 /area/space)
 "Gr" = (
-/obj/machinery/computer/bounty{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "Hw" = (
 /obj/machinery/holopad/secure,
@@ -442,11 +422,11 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "KG" = (
 /obj/effect/turf_decal/trimline/red/filled/corner,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "Le" = (
 /turf/open/floor/plating,
@@ -461,13 +441,13 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "Mc" = (
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "Mn" = (
 /obj/structure/railing{
@@ -477,8 +457,8 @@
 /area/space)
 "Mx" = (
 /obj/structure/chair/comfy/shuttle{
-	name = "tactical chair";
-	dir = 4
+	dir = 4;
+	name = "tactical chair"
 	},
 /obj/effect/landmark/start/head_of_security,
 /turf/open/floor/carpet/royalblack,
@@ -509,7 +489,7 @@
 	pixel_y = 3
 	},
 /obj/item/stamp,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "PP" = (
 /obj/structure/table/reinforced,
@@ -517,7 +497,7 @@
 /area/space)
 "QB" = (
 /obj/structure/closet/secure_closet/freezer/fridge/open,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "QR" = (
 /obj/structure/railing{
@@ -532,7 +512,7 @@
 /obj/structure/closet/secure_closet/hos,
 /obj/item/clothing/under/suit/black,
 /obj/item/clothing/head/fedora,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "RL" = (
 /obj/structure/chair/stool/bar{
@@ -541,13 +521,13 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "Sa" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "St" = (
 /turf/open/space/basic,
@@ -575,11 +555,11 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/space)
 "UM" = (
 /obj/effect/turf_decal/trimline/red/filled/line,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "US" = (
 /obj/item/kirbyplants/fullysynthetic{
@@ -592,7 +572,7 @@
 /obj/item/bedsheet/hos{
 	name = "security bedsheet"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "Vp" = (
 /obj/item/kirbyplants/fullysynthetic,
@@ -631,7 +611,7 @@
 /area/space)
 "YE" = (
 /obj/machinery/announcement_system,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/space)
 "YL" = (
 /obj/structure/railing{
@@ -15421,8 +15401,8 @@ Up
 zJ
 db
 Oa
-be
-be
+Gr
+Gr
 Pf
 te
 Gr
@@ -31548,7 +31528,7 @@ YO
 Cd
 rc
 xL
-be
+Gr
 Mc
 rc
 bi
@@ -31803,11 +31783,11 @@ St
 YO
 YO
 LJ
-be
+Gr
 xt
 xt
 xt
-be
+Gr
 UM
 YO
 YO
@@ -32316,13 +32296,13 @@ St
 St
 YO
 LJ
-be
+Gr
 xt
 PP
 PP
 PP
 xt
-be
+Gr
 UM
 YO
 St
@@ -32831,11 +32811,11 @@ St
 YO
 YO
 LJ
-be
+Gr
 xt
 xt
 xt
-be
+Gr
 UM
 YO
 YO
@@ -33090,7 +33070,7 @@ YO
 xA
 Ru
 FO
-be
+Gr
 KG
 aB
 ix
@@ -33604,7 +33584,7 @@ St
 St
 bt
 Oa
-be
+Gr
 Oa
 bt
 St
@@ -34121,8 +34101,8 @@ kP
 aB
 gl
 bt
-be
-be
+Gr
+Gr
 bt
 St
 St
@@ -34375,7 +34355,7 @@ YO
 bt
 bt
 Oa
-be
+Gr
 Oa
 bt
 bt
@@ -34636,8 +34616,8 @@ rc
 rc
 rc
 rc
-jb
-jb
+St
+St
 St
 St
 St
@@ -34880,21 +34860,21 @@ St
 St
 St
 St
-be
-be
-be
-be
-be
-be
-be
-be
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 KG
 aB
 aB
 aB
 aB
-jb
-jb
+St
+St
 St
 St
 St
@@ -35144,12 +35124,12 @@ bt
 bt
 bt
 bt
-be
+Gr
 UM
 bt
 bt
-be
-be
+Gr
+Gr
 bt
 bt
 bt
@@ -35396,12 +35376,12 @@ St
 St
 bt
 Vg
-be
+Gr
 Vg
-be
+Gr
 Vg
 bt
-be
+Gr
 UM
 Oa
 QB
@@ -35653,12 +35633,12 @@ St
 St
 bt
 rz
-be
+Gr
 rz
-be
+Gr
 rz
 bt
-be
+Gr
 UM
 Oa
 eS
@@ -35908,21 +35888,21 @@ St
 St
 St
 St
-be
-be
-be
-be
-be
-be
-be
-be
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 UM
 Oa
 Ek
 LJ
-be
-be
-be
+Gr
+Gr
+Gr
 UM
 iF
 St
@@ -36167,12 +36147,12 @@ St
 St
 bt
 rz
-be
+Gr
 rz
-be
+Gr
 rz
 bt
-be
+Gr
 UM
 Oa
 nS
@@ -36424,12 +36404,12 @@ St
 St
 bt
 Vg
-be
+Gr
 Vg
-be
+Gr
 Vg
 bt
-be
+Gr
 UM
 Oa
 Ek
@@ -36686,12 +36666,12 @@ bt
 bt
 bt
 bt
-be
+Gr
 UM
 bt
 bt
-be
-be
+Gr
+Gr
 bt
 bt
 bt
@@ -37280,7 +37260,7 @@ St
 oz
 oz
 oz
-jf
+oz
 oz
 Nz
 St
